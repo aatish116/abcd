@@ -1,0 +1,17 @@
+name: default
+permissions:
+- gadgetsmenu.mysteryboxes.open.*
+- bedwars.user
+- bukkit.broadcast.user
+- gadgetsmenu.animations.normal
+- gadgetsmenu.discount.default
+- gadgetsmenu.menuselector
+- gadgetsmenu.mysteryboxes.open.1
+- gadgetsmenu.mysteryboxes.open.2
+- gadgetsmenu.mysteryboxes.open.3
+- gadgetsmenu.mysteryboxes.open.4
+- gadgetsmenu.mysteryboxes.open.5
+- minecraft.command.msg
+prefixes:
+- '&7 ':
+    priority: 1

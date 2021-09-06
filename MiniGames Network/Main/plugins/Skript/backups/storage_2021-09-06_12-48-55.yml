@@ -1,0 +1,105 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.2-dev27
+
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.builduhc.deaths, long, 0000000000000000
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.builduhc.kills, long, 0000000000000000
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.builduhc.points, long, 0000000000000000
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.normal.deaths, long, 0000000000000002
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.normal.kills, long, 0000000000000007
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.normal.points, long, 0000000000000000
+leaf.ffa.0a1a720b-311f-3fd9-9d73-75a754fc81cf.normal.deaths, long, 0000000000000007
+leaf.ffa.0a1a720b-311f-3fd9-9d73-75a754fc81cf.normal.kills, long, 0000000000000002
+leaf.ffa.0a1a720b-311f-3fd9-9d73-75a754fc81cf.normal.points, long, 0000000000000000
+leaf.ffa.3566dc83-feb4-35da-95e3-9b3acc8a2c36.normal.deaths, long, 0000000000000000
+leaf.ffa.3566dc83-feb4-35da-95e3-9b3acc8a2c36.normal.kills, long, 0000000000000000
+leaf.ffa.3566dc83-feb4-35da-95e3-9b3acc8a2c36.normal.points, long, 0000000000000000
+leaf.ffa.37a9b123-c587-3180-9614-aa425f00c61e.builduhc.deaths, long, 0000000000000001
+leaf.ffa.37a9b123-c587-3180-9614-aa425f00c61e.builduhc.kills, long, 0000000000000001
+leaf.ffa.37a9b123-c587-3180-9614-aa425f00c61e.builduhc.points, long, 0000000000000000
+leaf.ffa.3d37de07-713b-3e6e-9c81-7deb57b2c40c.builduhc.deaths, long, 0000000000000000
+leaf.ffa.3d37de07-713b-3e6e-9c81-7deb57b2c40c.builduhc.kills, long, 0000000000000001
+leaf.ffa.3d37de07-713b-3e6e-9c81-7deb57b2c40c.builduhc.points, long, 0000000000000000
+leaf.ffa.3d37de07-713b-3e6e-9c81-7deb57b2c40c.mode, string, 80084275696C64554843
+leaf.ffa.b30c19ae-1d44-3a33-91fc-1c31e92691d0.normal.deaths, long, 0000000000000000
+leaf.ffa.b30c19ae-1d44-3a33-91fc-1c31e92691d0.normal.kills, long, 0000000000000000
+leaf.ffa.b30c19ae-1d44-3a33-91fc-1c31e92691d0.normal.points, long, 0000000000000000
+"leaf.ffa.blocks::ffa:-36.5,4.5,95.5", boolean, 01
+"leaf.ffa.blocks::ffa:-36.5,4.5,96.5", boolean, 01
+"leaf.ffa.blocks::ffa:-36.5,4.5,97.5", boolean, 01
+"leaf.ffa.blocks::ffa:-36.5,4.5,99.5", boolean, 01
+"leaf.ffa.blocks::ffa:-36.5,4.5,101.5", boolean, 01
+"leaf.ffa.blocks::ffa:-36.5,4.5,104.5", boolean, 01
+"leaf.ffa.blocks::ffa:-36.5,4.5,105.5", boolean, 01
+"leaf.ffa.blocks::ffa:-37.5,4.5,87.5", boolean, 01
+"leaf.ffa.blocks::ffa:-37.5,4.5,88.5", boolean, 01
+"leaf.ffa.blocks::ffa:-37.5,4.5,89.5", boolean, 01
+"leaf.ffa.blocks::ffa:-37.5,4.5,91.5", boolean, 01
+"leaf.ffa.blocks::ffa:-37.5,4.5,92.5", boolean, 01
+"leaf.ffa.blocks::ffa:-37.5,4.5,93.5", boolean, 01
+"leaf.ffa.blocks::ffa:-39.5,4.5,85.5", boolean, 01
+"leaf.ffa.blocks::ffa:-45.5,4.5,87.5", boolean, 01
+"leaf.ffa.blocks::ffa:-45.5,4.5,88.5", boolean, 01
+"leaf.ffa.blocks::ffa:-45.5,4.5,99.5", boolean, 01
+"leaf.ffa.blocks::ffa:-45.5,4.5,101.5", boolean, 01
+"leaf.ffa.blocks::ffa:-45.5,4.5,104.5", boolean, 01
+"leaf.ffa.blocks::ffa:-46.5,4.5,87.5", boolean, 01
+"leaf.ffa.blocks::ffa:-46.5,4.5,88.5", boolean, 01
+"leaf.ffa.blocks::ffa:-46.5,4.5,103.5", boolean, 01
+"leaf.ffa.blocks::ffa:-46.5,4.5,104.5", boolean, 01
+"leaf.ffa.blocks::ffa:-46.5,5.5,87.5", boolean, 01
+"leaf.ffa.blocks::ffa:-47.5,4.5,87.5", boolean, 01
+"leaf.ffa.blocks::ffa:-47.5,4.5,105.5", boolean, 01
+"leaf.ffa.blocks::ffa:-49.5,4.5,88.5", boolean, 01
+"leaf.ffa.blocks::ffa:-49.5,4.5,103.5", boolean, 01
+"leaf.ffa.blocks::ffa:-49.5,4.5,105.5", boolean, 01
+leaf.ffa.ed09f74a-4743-3595-8285-2a165ea93335.builduhc.deaths, long, 0000000000000002
+leaf.ffa.ed09f74a-4743-3595-8285-2a165ea93335.builduhc.kills, long, 0000000000000001
+leaf.ffa.ed09f74a-4743-3595-8285-2a165ea93335.builduhc.points, long, 0000000000000000
+leaf.ffa.ed09f74a-4743-3595-8285-2a165ea93335.mode, string, 80084275696C64554843
+leaf.ffa.ed09f74a-4743-3595-8285-2a165ea93335.normal.deaths, long, 0000000000000000
+leaf.ffa.ed09f74a-4743-3595-8285-2a165ea93335.normal.kills, long, 0000000000000000
+leaf.ffa.ed09f74a-4743-3595-8285-2a165ea93335.normal.points, long, 0000000000000000
+leaf.ffa.f8ffab91-4598-41ad-9a16-084e1075fbc8.mode, string, 80064E6F726D616C
+leaf.ffa.f8ffab91-4598-41ad-9a16-084e1075fbc8.normal.deaths, long, 0000000000000000
+leaf.ffa.f8ffab91-4598-41ad-9a16-084e1075fbc8.normal.kills, long, 0000000000000000
+leaf.ffa.f8ffab91-4598-41ad-9a16-084e1075fbc8.normal.points, long, 0000000000000000
+leaf.ffa.spawn.builduhc, location, 8605776F726C6480FF0000000181046E616D65208003666661017809C0464A9A1800C7C60179094034000000000000017A094050AD63BD116F530570697463680840C9583803796177083D9F80EE
+leaf.ffa.spawn.normal, location, 8605776F726C6480FF0000000181046E616D65208003666661017809C053E3027339A26B017909403B000000000000017A094092FE959BE86B480570697463680840FE24EF03796177084014FB3A
+skypvp.deaths.063ebf80-3d75-3cbd-965c-a52e46af1cd7, long, 0000000000000002
+skypvp.deaths.0a1a720b-311f-3fd9-9d73-75a754fc81cf, long, 0000000000000004
+skypvp.deaths.3566dc83-feb4-35da-95e3-9b3acc8a2c36, long, 0000000000000000
+skypvp.deaths.37a9b123-c587-3180-9614-aa425f00c61e, long, 0000000000000003
+skypvp.deaths.3d37de07-713b-3e6e-9c81-7deb57b2c40c, long, 0000000000000000
+skypvp.deaths.63385312-4971-3d02-ac86-9edc47604611, long, 0000000000000000
+skypvp.deaths.b30c19ae-1d44-3a33-91fc-1c31e92691d0, long, 0000000000000001
+skypvp.deaths.ed09f74a-4743-3595-8285-2a165ea93335, long, 0000000000000001
+skypvp.deaths.f8ffab91-4598-41ad-9a16-084e1075fbc8, long, 0000000000000000
+skypvp.kills.063ebf80-3d75-3cbd-965c-a52e46af1cd7, long, 0000000000000002
+skypvp.kills.0a1a720b-311f-3fd9-9d73-75a754fc81cf, long, 0000000000000001
+skypvp.kills.3566dc83-feb4-35da-95e3-9b3acc8a2c36, long, 0000000000000000
+skypvp.kills.37a9b123-c587-3180-9614-aa425f00c61e, long, 0000000000000000
+skypvp.kills.3d37de07-713b-3e6e-9c81-7deb57b2c40c, long, 0000000000000001
+skypvp.kills.63385312-4971-3d02-ac86-9edc47604611, long, 0000000000000000
+skypvp.kills.<none>, long, 0000000000000006
+skypvp.kills.b30c19ae-1d44-3a33-91fc-1c31e92691d0, long, 0000000000000000
+skypvp.kills.ed09f74a-4743-3595-8285-2a165ea93335, long, 0000000000000001
+skypvp.kills.f8ffab91-4598-41ad-9a16-084e1075fbc8, long, 0000000000000000
+survival.deaths.063ebf80-3d75-3cbd-965c-a52e46af1cd7, long, 0000000000000000
+survival.deaths.0a1a720b-311f-3fd9-9d73-75a754fc81cf, long, 0000000000000000
+survival.deaths.3566dc83-feb4-35da-95e3-9b3acc8a2c36, long, 0000000000000000
+survival.deaths.37a9b123-c587-3180-9614-aa425f00c61e, long, 0000000000000000
+survival.deaths.3d37de07-713b-3e6e-9c81-7deb57b2c40c, long, 0000000000000000
+survival.deaths.ed09f74a-4743-3595-8285-2a165ea93335, long, 0000000000000000
+survival.kills.063ebf80-3d75-3cbd-965c-a52e46af1cd7, long, 0000000000000000
+survival.kills.0a1a720b-311f-3fd9-9d73-75a754fc81cf, long, 0000000000000000
+survival.kills.3566dc83-feb4-35da-95e3-9b3acc8a2c36, long, 0000000000000000
+survival.kills.37a9b123-c587-3180-9614-aa425f00c61e, long, 0000000000000000
+survival.kills.3d37de07-713b-3e6e-9c81-7deb57b2c40c, long, 0000000000000000
+survival.kills.ed09f74a-4743-3595-8285-2a165ea93335, long, 0000000000000000
+
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.mode, null, 
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.mode, null, 
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.mode, null, 
+leaf.ffa.063ebf80-3d75-3cbd-965c-a52e46af1cd7.mode, null, 

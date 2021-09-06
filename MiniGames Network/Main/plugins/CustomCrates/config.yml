@@ -1,0 +1,381 @@
+Crates:
+  FAKE:
+    ParticleEffect:
+      enabled: false
+      particle: Crit
+      onlywhenopening: false
+    Key:
+      material: tripwirehook
+      name: '&8&l(&c&lFAKE &f&lKey&8&l)'
+      enchanted: true
+      lore:
+      - '&7&oThis is a %Crate% Crate key'
+    Sound:
+      movingSound: NOTE_BASS
+      prizeSound: SUCCESSFUL_HIT
+      closeInventorySound: LEVEL_UP
+    LeftClickInv:
+      enablechancelore: true
+      enabled: true
+      lore:
+      - '&7Chance: &a&l%chance%%'
+      name: '&cItems for %crate%'
+    PrizeItem:
+      material: redstonetorch
+      name: '&aPrize'
+      enchanted: false
+    PreCommands:
+    - msg:%prefix%Now opening %crate% crate.
+    BlockType: CHEST
+    Items:
+      '1':
+        enchanted: true
+        material: IronIngot
+        name: '&C2 FAKE Keys'
+        chance: 35
+        commands:
+        - crate givekey %player% FAKE 2
+        amount: 1
+      '2':
+        enchanted: true
+        material: GoldIngot
+        name: '&a1 common Keys'
+        chance: 80
+        commands:
+        - crate givekey %player% Common 1
+        amount: 1
+      '3':
+        enchanted: true
+        material: Diamond
+        name: '&61 UnCommon Keys'
+        chance: 20
+        commands:
+        - crate givekey %player% UnCommon 1
+        amount: 1
+      '5':
+        enchanted: true
+        material: IronBlock
+        name: '&C3 FAKE Keys'
+        chance: 30
+        commands:
+        - crate givekey %player% FAKE 3
+        amount: 1
+      '6':
+        enchanted: true
+        material: GoldBlock
+        name: '&a2 common Keys'
+        chance: 80
+        commands:
+        - crate givekey %player% Common 2
+        amount: 1
+      '7':
+        enchanted: true
+        material: DiamondBlock
+        name: '&62 UnCommon Keys'
+        chance: 10
+        commands:
+        - crate givekey %player% UnCommon 2
+        amount: 1
+      '8':
+        enchanted: true
+        material: Emerald
+        name: '&91 MAGIC Keys'
+        chance: 5
+        commands:
+        - crate givekey %player% Magic 1
+        amount: 1
+      '9':
+        enchanted: true
+        material: EmeraldBlock
+        name: '&92 MAGIC Keys'
+        chance: 2
+        commands:
+        - crate givekey %player% Magic 2
+        amount: 1
+    OpenInv:
+      name: '&cOpening %crate%'
+  Common:
+    ParticleEffect:
+      enabled: false
+      particle: Crit
+      onlywhenopening: false
+    Key:
+      material: tripwirehook
+      name: '&8&l(&aCommon Crate Key&8&l)'
+      enchanted: true
+      lore:
+      - '&7&oThis is a %Crate% Crate key'
+    Sound:
+      movingSound: NOTE_BASS
+      prizeSound: SUCCESSFUL_HIT
+      closeInventorySound: LEVEL_UP
+    LeftClickInv:
+      enablechancelore: true
+      enabled: true
+      lore:
+      - '&7Chance: &a&l%chance%%'
+      name: '&cItems for %crate%'
+    PrizeItem:
+      material: redstonetorch
+      name: '&aPrize'
+      enchanted: false
+    PreCommands:
+    - msg:%prefix%Now opening %crate% crate.
+    BlockType: CHEST
+    Items:
+      '1':
+        enchanted: false
+        material: paper
+        name: '&e0.2k'
+        chance: 100
+        commands:
+        - eco give %player% 200
+        amount: 1
+      '3':
+        enchanted: false
+        material: paper
+        name: '&eKit Electro'
+        chance: 20
+        commands:
+        - kit electro %player%
+        amount: 1
+      '4':
+        enchanted: false
+        material: paper
+        name: '&e5k'
+        chance: 10
+        commands:
+        - eco give %player% 5000
+        amount: 1
+      '8':
+        enchanted: true
+        material: paper
+        name: '&9&l1000'
+        chance: 1
+        commands:
+        - eco give %player% 1000
+        amount: 1
+      '9':
+        enchanted: true
+        material: TripWireHook
+        name: '&e3 FAKE Keys'
+        chance: 5
+        commands:
+        - crate givekey %player% FAKE 3
+        amount: 1
+    OpenInv:
+      name: '&cOpening %crate%'
+  UnCommon:
+    ParticleEffect:
+      enabled: false
+      particle: Crit
+      onlywhenopening: false
+    Key:
+      material: tripwirehook
+      name: '&8&l(&6uncommon Crate Key&8&l)'
+      enchanted: true
+      lore:
+      - '&7&oThis is a %Crate% Crate key'
+    Sound:
+      movingSound: NOTE_BASS
+      prizeSound: SUCCESSFUL_HIT
+      closeInventorySound: LEVEL_UP
+    LeftClickInv:
+      enablechancelore: true
+      enabled: true
+      lore:
+      - '&7Chance: &a&l%chance%%'
+      name: '&cItems for %crate%'
+    PrizeItem:
+      material: redstonetorch
+      name: '&aPrize'
+      enchanted: false
+    PreCommands:
+    - msg:%prefix%Now opening %crate% crate.
+    BlockType: CHEST
+    Items:
+      '1':
+        enchanted: false
+        material: 299
+        name: '&4Kit &5Hero'
+        chance: 25
+        commands:
+        - kit hero %player%
+        amount: 1
+      '2':
+        enchanted: false
+        material: DiamondBlock
+        name: '&e12 DiamondBlocks'
+        chance: 10
+        commands:
+        - give %player% DiamondBlock 12
+        amount: 1
+      '3':
+        enchanted: false
+        material: paper
+        name: '&e2k'
+        chance: 30
+        commands:
+        - eco give %player% 2000
+        amount: 1
+      '4':
+        enchanted: false
+        material: paper
+        name: '&e5k'
+        chance: 20
+        commands:
+        - eco give %player% 5000
+        amount: 1
+      '7':
+        enchanted: true
+        material: dpickaxe
+        name: '&e&lOP PICKAXE'
+        chance: 5
+        commands:
+        - kit miner %player%
+        amount: 1
+      '8':
+        enchanted: true
+        material: paper
+        name: '&9&l10k'
+        chance: 2
+        commands:
+        - eco give %player% 10000
+        amount: 1
+      '9':
+        enchanted: true
+        material: TripWireHook
+        name: '&e3 FAKE Keys'
+        chance: 5
+        commands:
+        - crate givekey %player% FAKE 3
+        amount: 1
+      '12':
+        enchanted: false
+        material: EmptyMap
+        name: '&c&l125 &lMcmmo'
+        chance: 2
+        commands:
+        - givecredits %player% 125
+        amount: 1
+      '14':
+        enchanted: false
+        material: dirt
+        name: '&cdirt'
+        chance: 20
+        commands:
+        - give dirt %player%
+        amount: 1
+    OpenInv:
+      name: '&cOpening %crate%'
+  Magic:
+    ParticleEffect:
+      enabled: false
+      particle: Crit
+      onlywhenopening: false
+    Key:
+      material: tripwirehook
+      name: '&8&l(&9&lMAGIC Crate Key&8&l)'
+      enchanted: true
+      lore:
+      - '&7&oThis is a %Crate% Crate key'
+    Sound:
+      movingSound: NOTE_pling
+      prizeSound: SUCCESSFUL_HIT
+      closeInventorySound: LEVEL_UP
+    LeftClickInv:
+      enablechancelore: true
+      enabled: true
+      lore:
+      - '&7Chance: &a&l%chance%%'
+      name: '&cItems for %crate%'
+    PrizeItem:
+      material: glowstonedust
+      name: '&aPrize'
+      enchanted: true
+    PreCommands:
+    - msg:%prefix%Now opening %crate% crate.
+    BlockType: CHEST
+    Items:
+      '1':
+        enchanted: false
+        material: paper
+        name: '&e6k'
+        chance: 50
+        commands:
+        - eco give %player% 6000
+        amount: 1
+      '2':
+        enchanted: false
+        material: DiamondBlock
+        name: '&e10 DiamondBlocks'
+        chance: 30
+        commands:
+        - give %player% DiamondBlock 10
+        amount: 1
+      '3':
+        enchanted: false
+        material: paper
+        name: '&e20k'
+        chance: 15
+        commands:
+        - eco give %player% 20000
+        amount: 1
+      '4':
+        enchanted: false
+        material: paper
+        name: '&4Youtuber Kit'
+        chance: 15
+        commands:
+        - kit youtuber %player%
+        amount: 1
+      '6':
+        enchanted: true
+        material: dpickaxe
+        name: '&e&lOP PICKAXE'
+        chance: 30
+        commands:
+        - kit miner %player%
+        amount: 1
+      '7':
+        enchanted: true
+        material: paper
+        name: '&9&l20k'
+        chance: 10
+        commands:
+        - eco give %player% 20000
+        amount: 1
+      '8':
+        enchanted: true
+        material: TripWireHook
+        name: '&e3 Crate Keys'
+        chance: 50
+        commands:
+        - crate givekey %player% Crate 3
+        amount: 1
+      '11':
+        enchanted: false
+        material: DChestplate
+        name: '&c&lG&F&LOD SET'
+        chance: 40
+        commands:
+        - kit GodSet %player%
+        amount: 1
+      '16':
+        enchanted: true
+        material: Ironblock
+        name: '&d&lIron set'
+        chance: 80
+        commands:
+        - kit iron %player%
+        amount: 1
+      '18':
+        enchanted: true
+        material: EnderChest
+        name: '&e&l&lCrate Key for all!'
+        chance: 5
+        commands:
+        - Crate ga FAKE 1
+        amount: 1
+    OpenInv:
+      name: '&cOpening %crate%'

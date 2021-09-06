@@ -1,0 +1,57 @@
+v2-logout:
+  a6171976-d57a-4556-be56-6987215863fe:
+    group: other
+    world: world
+  12f98aad-089e-40c9-9b94-d6e959a3815c:
+    world: world
+    group: other
+  f8ffab91-4598-41ad-9a16-084e1075fbc8:
+    world: skypvp
+    group: skypvp
+  648ecd86-fb1e-4c1c-8dd5-28fa3939ef66:
+    world: skywars
+  1c422abf-bce7-4081-9066-a2e71f18aed9:
+    group: other
+    world: world
+  c6d602ae-eddf-4794-b736-0cfe0814e6af:
+    group: other
+    world: world
+  1200fa83-8296-3e6b-804d-5b8799ee43a3:
+    world: survival
+    group: survival
+  ed09f74a-4743-3595-8285-2a165ea93335:
+    world: bedwars
+  37a9b123-c587-3180-9614-aa425f00c61e:
+    world: bedwars
+  df045c90-0cbe-4f7a-84b5-7dfe947e84bf:
+    group: other
+    world: world
+  f6906a30-2fe6-35e9-9e67-e67b110e38d6:
+    group: other
+    world: world
+  3d37de07-713b-3e6e-9c81-7deb57b2c40c:
+    world: world
+    group: other
+  1eff6f99-eb69-3529-836f-9b7a7fa588fb:
+    group: other
+    world: world
+  63385312-4971-3d02-ac86-9edc47604611:
+    group: other
+    world: world
+  3566dc83-feb4-35da-95e3-9b3acc8a2c36:
+    world: bedwars
+  063ebf80-3d75-3cbd-965c-a52e46af1cd7:
+    world: world
+    group: other
+  0a1a720b-311f-3fd9-9d73-75a754fc81cf:
+    world: world
+    group: other
+  b30c19ae-1d44-3a33-91fc-1c31e92691d0:
+    world: world
+    group: other
+  e4e58729-3b4e-38fe-b0a1-5c1e3f1e67b5:
+    group: other
+    world: world
+  9fb8a800-d660-3cbf-973a-c80558a08f82:
+    group: other
+    world: world

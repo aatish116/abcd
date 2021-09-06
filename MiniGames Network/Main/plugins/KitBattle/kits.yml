@@ -1,0 +1,1334 @@
+# ###################
+#      KitBattle    # 
+#     Kits Config   #
+# ###################
+# ###################
+# Kits config file!
+# To rename/name a KIT it must start with a capital letter and the rest of letters must be lowercase (ex. Monster)
+# To create a new kit, you can simply copy an existed kit and paste it, and edit the new version of it, like rename it and change items/abilties
+# DONT FORGET, that if u rename/create a kit YOU MUST do the same for it in Upgrades.yml!
+# Please only use true/false to enable or disable a kit, nothing else!
+# You can control the armor like this! 307 : enchant:protection:1 : name:test : lore:&bThis is a test with colors!
+# This will give you an iron chestplate enchanted with protection 1, named test, and the lore is colord blue and says This is a test with colors!
+# For items they are pretty much same as armor, but you have to add the amount of the item, Example: 276 : 1 : enchant:sharpness:1
+# This will give you 1 diamond sword enchanted with sharpness 1
+# Sequel 'ItemID : Amount : <enchant/name/lore> : <more-enchant/name/lore> (unlimited)
+# You can control the durability by this: ItemID:Durability : Amount : <enchant/name/lore> : ///
+# If you turn on the Use-Permission for any kit, the permission will be (kitbattle.kits.<kitname>)
+# -----------------------------------------------------------------------------------------------------------------------------------------------
+# Abilities: Kangaroo, Stomper, Fisherman, Endermage, Bomber, Switcher, Thor, Suicidal, Berzerk, Viper, Soulstealer, Monk, Hades
+# Potions format -> <Potion-Name> : time : level
+# Potions example -> SPEED : 500 : 2
+# Time is by ticks, every 20 tick is gonna equal to 1 second
+# For a list of potions visit http://jd.bukkit.org/rb/apidocs/org/bukkit/potion/PotionEffectType.html
+
+Kits:
+  Pvp:
+    Enabled: true
+    Use-Permission: false
+    Price: 100
+    Upgrade-Price: 200
+    Item: 276
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '276 : 1 : enchant:sharpness:1 : name:&6Pvp Sword'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: The default kit
+    Special-Ability: None
+    Ability-Encounter: None
+    Abilities: '[]'
+    Potion-Effects: '[]'
+  Archer:
+    Enabled: true
+    Use-Permission: false
+    Price: 100
+    Upgrade-Price: 50
+    Item: 261
+    Armor:
+      Helmet: '306'
+      Chestplate: '299'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '267 : 1 : enchant:sharpness:1'
+    - '261 : 1 : enchant:power:1 : enchant:infinite:1 : name:&6Paw!'
+    - '262 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: A basic kit with a bow
+    Special-Ability: None
+    Ability-Encounter: None
+    Abilities: '[]'
+    Potion-Effects: '[]'
+  Kangaroo:
+    Enabled: true
+    Use-Permission: false
+    Price: 1000
+    Upgrade-Price: 200
+    Item: 401
+    Armor:
+      Helmet: '306'
+      Chestplate: '299'
+      Leggings: '308'
+      Boots: '313 : enchant:featherfalling:4'
+    items:
+    - '267 : 1 : enchant:sharpness:1'
+    - '401 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: great for navigating easily!
+    Special-Ability: Right/Left clicking a firework will boost you up the way you looking, but if shifting it will boost forward!
+    Ability-Encounter: None
+    Abilities:
+    - Kangaroo
+    Potion-Effects: '[]'
+  Pyro:
+    Enabled: true
+    Use-Permission: false
+    Price: 300
+    Upgrade-Price: 200
+    Item: 259
+    Armor:
+      Helmet: '306 : enchant:fireprotection:9'
+      Chestplate: '299 : enchant:fireprotection:9'
+      Leggings: '308 : enchant:fireprotection:9'
+      Boots: '301 : enchant:fireprotection:9'
+    items:
+    - '267 : 1 : enchant:sharpness:1 : enchant:fireaspect:2 : name:&6Phoenix'
+    - '261 : 1 : enchant:infinite:1 : enchant:flame:1 : enchant:punch:1'
+    - '262 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Playing with fire is never good!
+    Special-Ability: None
+    Ability-Encounter: None
+    Abilities: '[]'
+    Potion-Effects: '[]'
+  Stomper:
+    Enabled: true
+    Use-Permission: false
+    Price: 750
+    Upgrade-Price: 225
+    Item: 288
+    Armor:
+      Helmet: '298'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '301'
+    items:
+    - '267 : 1 : enchant:sharpness:1'
+    - '280 : 1 : name:&dBOOST!'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Falling on any one nearby players of 5 Blocks will cause them to get damaged, the greater the height is, the more damage it cause, Also, maximum fall damage is 2 Hearts
+    Special-Ability: Being able to damage surrounding players when fall damage is taken
+    Ability-Encounter: Shifting will only cause the player to take 2 Hearts of damage, no matter how high the stomper's jump was
+    Abilities:
+    - Stomper
+    Potion-Effects: '[]'
+  Fisherman:
+    Enabled: true
+    Use-Permission: false
+    Price: 1200
+    Upgrade-Price: 125
+    Item: 346
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '300'
+      Boots: '301'
+    items:
+    - '267 : 1 : enchant:sharpness:1'
+    - '346 : 1 : name:&6Fisherman rod'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Hooking a player to your fishing rod,then right clicking will cause them to teleport you!
+    Special-Ability: Being able to pull people to you
+    Ability-Encounter: If you get hooked, move far away from the fisherman
+    Abilities:
+    - Fisherman
+    Potion-Effects: '[]'
+  Endermage:
+    Enabled: true
+    Use-Permission: false
+    Price: 600
+    Upgrade-Price: 200
+    Item: 130
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '300'
+      Boots: '309'
+    items:
+    - '267 : 1 : enchant:sharpness:1'
+    - '130 : 1 : name:&6Mage : lore:&bRight click on a block to use!'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Placing the Enderchest on ground will teleport any nearby players by a radius of 5 and the height is unlimited!
+    Special-Ability: Teleporting players in a radius of 5 to you but the height is unlimited
+    Ability-Encounter: None
+    Abilities:
+    - Endermage
+    Potion-Effects: '[]'
+  Bomber:
+    Enabled: true
+    Use-Permission: false
+    Price: 2000
+    Upgrade-Price: 350
+    Item: 46
+    Armor:
+      Helmet: '298 : enchant:blastprotection:3'
+      Chestplate: '299 : enchant:blastprotection:3'
+      Leggings: '308 : enchant:blastprotection:3'
+      Boots: '309 : enchant:blastprotection:3'
+    items:
+    - '276 : 1 : enchant:sharpness:1'
+    - '76 : 1 : name:&2Right Click To Use'
+    - '46 : 32 : name:Ammo'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: 'Left/Right clicking the redstone torch will cause you to shoot tnt
+      at your opponent '
+    Special-Ability: Being able to shoot tnt
+    Ability-Encounter: None, But right clicking your sword should be enough
+    Abilities:
+    - Bomber
+    Potion-Effects: '[]'
+  Switcher:
+    Enabled: true
+    Use-Permission: false
+    Price: 1250
+    Upgrade-Price: 100
+    Item: 332
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '267 : 1 : enchant:sharpness:1'
+    - '332 : 16 : name:&2Right Click To Use'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Throwing a snowball at a player will swap your positions
+    Special-Ability: 'Being able to switch places with opponent '
+    Ability-Encounter: None
+    Abilities:
+    - Switcher
+    Potion-Effects: '[]'
+  Thor:
+    Enabled: true
+    Use-Permission: false
+    Price: 750
+    Upgrade-Price: 175
+    Item: 271
+    Armor:
+      Helmet: '298'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '276 : 1 : enchant:sharpness:1'
+    - '271 : 1 : name:&2Right Click To Use'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Right clicking the wood axe will drop lightning on all players within a 5 block radius
+    Special-Ability: 'Being able to drop lightning on your opponents '
+    Ability-Encounter: None
+    Abilities:
+    - Thor
+    Potion-Effects: '[]'
+  Viking:
+    Enabled: true
+    Use-Permission: false
+    Price: 400
+    Upgrade-Price: 200
+    Item: 279
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '279 : 1 : enchant:sharpness:1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: A very basic kit with an diamond axe!
+    Special-Ability: None
+    Ability-Encounter: None
+    Abilities: '[]'
+    Potion-Effects: '[]'
+  Tank:
+    Enabled: true
+    Use-Permission: false
+    Price: 1300
+    Upgrade-Price: 300
+    Item: 311
+    Armor:
+      Helmet: '310'
+      Chestplate: '311'
+      Leggings: '312'
+      Boots: '313'
+    items:
+    - '272 : 1 : enchant:sharpness:2'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Comes with full diamond armor, and an enchanted stone sword
+    Special-Ability: None
+    Ability-Encounter: None
+    Abilities: '[]'
+    Potion-Effects:
+    - 'SLOW : forever : 2'
+  Suicidal:
+    Enabled: true
+    Use-Permission: false
+    Price: 800
+    Upgrade-Price: 200
+    Item: 76
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '276 : 1 : enchant:sharpness:1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: The user will drop 5 active tnt on death
+    Special-Ability: Being able to kill someone after death
+    Ability-Encounter: None
+    Abilities:
+    - Suicidal
+    Potion-Effects: '[]'
+  Berzerk:
+    Enabled: true
+    Use-Permission: false
+    Price: 3000
+    Upgrade-Price: 500
+    Item: 331
+    Armor:
+      Helmet: '298'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '276 : 1 : enchant:sharpness:1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Each time the user kills a player he will gain Strength I and Speed I for 25 Seconds
+    Special-Ability: Being able to gain Strength and Speed effects after killing
+    Ability-Encounter: None, Hide for your life!
+    Abilities:
+    - Berzerk
+    Potion-Effects: '[]'
+  Viper:
+    Enabled: true
+    Use-Permission: false
+    Price: 1200
+    Upgrade-Price: 200
+    Item: 378
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '276 : 1 : enchant:sharpness:1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Hitting a target will have a 1/10 chance to poison the target
+    Special-Ability: 'Having a chance to poison opponent '
+    Ability-Encounter: None
+    Abilities:
+    - Viper
+    Potion-Effects: '[]'
+  Soulstealer:
+    Enabled: true
+    Use-Permission: false
+    Price: 2000
+    Upgrade-Price: 300
+    Item: 322
+    Armor:
+      Helmet: '314'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '317'
+    items:
+    - '283 : 1 : enchant:sharpness:3 : enchant:unbreaking:9'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Hitting the target will have a 1/10 to steal a heart from a target and using it to heal you 1 heart
+    Special-Ability: Being able to heal while in combat
+    Ability-Encounter: None!
+    Abilities:
+    - Soulstealer
+    Potion-Effects: '[]'
+  Monk:
+    Enabled: true
+    Use-Permission: false
+    Price: 1800
+    Upgrade-Price: 300
+    Item: 369
+    Armor:
+      Helmet: '302'
+      Chestplate: '303'
+      Leggings: '316'
+      Boots: '309'
+    items:
+    - '267 : 1'
+    - '369 : 1 : name:&bMonk Staff : lore: Right click a player to use!'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Right clicking the blazerod on a player will swap the item in the player's hand with a random item in their hotbar
+    Special-Ability: Being able to switch opponents weapon with something else
+    Ability-Encounter: None
+    Abilities:
+    - Monk
+    Potion-Effects: '[]'
+  Reaper:
+    Enabled: true
+    Use-Permission: false
+    Price: 1350
+    Upgrade-Price: 250
+    Item: 290
+    Armor:
+      Helmet: '310'
+      Chestplate: '299'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '276 : 1'
+    - '290 : 1 : name:&7Reaper : lore: Hit a player to use!'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Hitting a player with the hoe will give you regenration iv and will give them the wither effect
+    Special-Ability: Being able to give the wither effect to a player
+    Ability-Encounter: None
+    Abilities:
+    - Reaper
+    Potion-Effects: '[]'
+  Snail:
+    Enabled: true
+    Use-Permission: false
+    Price: 1000
+    Upgrade-Price: 250
+    Item: 287
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '276 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Hitting a player will have a 1/10 chance of giving them Slowness 2
+    Special-Ability: Being able to give the slowness effect to a player
+    Ability-Encounter: None
+    Abilities:
+    - Snail
+    Potion-Effects: '[]'
+  Ninja:
+    Enabled: true
+    Use-Permission: false
+    Price: 400
+    Upgrade-Price: 125
+    Item: 399
+    Armor:
+      Helmet: '302'
+      Chestplate: '303'
+      Leggings: '308'
+      Boots: '305'
+    items:
+    - '276 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: A basic kit with speed 2
+    Special-Ability: None
+    Ability-Encounter: None
+    Abilities: '[]'
+    Potion-Effects:
+    - 'SPEED : forever : 2'
+  Necromancer:
+    Enabled: true
+    Use-Permission: false
+    Price: 1900
+    Upgrade-Price: 200
+    Item: 397
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '300'
+      Boots: '305'
+    items:
+    - '276 : 1'
+    - '293 : 1 : name:&bSummoner : lore:Hit a player with this to summon the undead!'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: You have the ability to summon the undead to fight for you
+    Special-Ability: Summon zombies that will fight for you
+    Ability-Encounter: Run away! they will disappear in 10 seconds
+    Abilities:
+    - Necromancer
+    Potion-Effects: '[]'
+  Turtle:
+    Enabled: true
+    Use-Permission: false
+    Price: 800
+    Upgrade-Price: 200
+    Item: 307
+    Armor:
+      Helmet: '306'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '309'
+    items:
+    - '267 : 1 : enchant:sharpness:1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Shifting will set the max damage to 1 heart, but you wont be able to attack!
+    Special-Ability: Reducing incoming damage
+    Ability-Encounter: None
+    Abilities:
+    - Turtle
+    Potion-Effects: '[]'
+  Vampire:
+    Enabled: true
+    Use-Permission: false
+    Price: 650
+    Upgrade-Price: 200
+    Item: 370
+    Armor:
+      Helmet: '310'
+      Chestplate: '303'
+      Leggings: '304'
+      Boots: '301'
+    items:
+    - '267 : 1 : enchant:sharpness:1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: When you kill a player you earn extra bar of hearts
+    Special-Ability: Having extra hearts after killing a player
+    Ability-Encounter: None
+    Abilities:
+    - Vampire
+    Potion-Effects: '[]'
+  Hades:
+    Enabled: true
+    Use-Permission: false
+    Price: 1300
+    Upgrade-Price: 200
+    Item: 352
+    Armor:
+      Helmet: '314'
+      Chestplate: '307'
+      Leggings: '308'
+      Boots: '301'
+    items:
+    - '276 : 1 : enchant:sharpness:1'
+    - '352 : 1 : name:&cSummoning bone'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    - '282 : 1'
+    Description: Summon wolfs that will help you in your battle!
+    Special-Ability: Summon wolfs to have advantage over others
+    Ability-Encounter: None
+    Abilities:
+    - Hades
+    Potion-Effects: '[]'

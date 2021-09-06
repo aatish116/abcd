@@ -1,0 +1,406 @@
+debug:
+  enabled: false
+permanent-items: true
+store:
+  replace-store-with-hypixelstore: true
+running-generator-drops:
+- DIAMOND
+- IRON_INGOT
+- EMERALD
+- GOLD_INGOT
+block-item-drops: true
+allowed-item-drops:
+- DIAMOND
+- IRON_INGOT
+- EMERALD
+- GOLD_INGOT
+- GOLDEN_APPLE
+- ENDER_PEAL
+- OBSIDIAN
+- TNT
+give-killer-resources: true
+remove-sword-on-upgrade: true
+block-players-putting-certain-items-onto-chest: true
+disable-armor-inventory-movement: true
+version: 1.4.3
+autoset-bw-config: false
+floating-generator:
+  enabled: true
+  holo-height: 2.5
+  item-height: 0.4
+upgrades:
+  timer-upgrades-enabled: true
+  show-upgrade-message: true
+  trap-detection-range: 7
+  multiplier: 0.25
+  prices:
+    Sharpness-Prot-I: 4
+    Sharpness-Prot-II: 8
+    Sharpness-Prot-III: 12
+    Sharpness-Prot-IV: 16
+  time:
+    Diamond-I: 120
+    Emerald-I: 200
+    Diamond-II: 400
+    Emerald-II: 520
+    Diamond-III: 700
+    Emerald-III: 900
+    Diamond-IV: 1100
+    Emerald-IV: 1200
+date:
+  format: MM/dd/yy
+lobby-scoreboard:
+  solo-prefix: Solo
+  doubles-prefix: Doubles
+  triples-prefix: Triples
+  squads-prefix: Squads
+  enabled: true
+  interval: 2
+  state:
+    waiting: '&fWaiting...'
+    countdown: '&fStarting in &a{countdown}s'
+  title:
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&e&lBED WARS'
+  - '&6&lB&e&lED WARS'
+  - '&f&lB&6&lE&e&lD WARS'
+  - '&f&lBE&6&lD&e&l WARS'
+  - '&f&lBED&6&l &e&lWARS'
+  - '&f&lBED &6&lW&e&lARS'
+  - '&f&lBED W&6&lA&e&lRS'
+  - '&f&lBED WA&6&lR&e&lS'
+  - '&f&lBED WAR&6&lS'
+  - '&f&lBED WARS'
+  - '&e&lBED WARS'
+  - '&f&lBED WARS'
+  player-size:
+    games:
+      Japan: 1
+      Boats: 1
+      Labyrinth: 1
+      Boats3: 2
+      Golden2: 2
+      Toys2: 2
+      Toys: 1
+      Enderman2: 2
+      Enderman: 1
+      China: 4
+      Labyrinth2: 2
+      Coliseum: 3
+      Japan2: 2
+      Ghost_Road: 3
+      Golden: 1
+      Japan4: 4
+first_start: false
+shout:
+  time-out: 60
+message:
+  waiting: '&fWaiting...'
+  game-starts-in: '&eThe game starts in &c{seconds} &eseconds'
+  bed-destroyed:
+    title: '&c&lBED DESTROYED!'
+    sub-title: You will no longer respawn!
+  already-purchased: '&c&lYou already purchased the same {thing}'
+  wait-trap: '&cYou already purchased this upgrade!, wait for it to wear out'
+  upgrade-team-protection: '&o&c{player}&e has upgraded team protection'
+  error-occured: '&c&lAN ERROR HAS OCCURED'
+  greatest-enchantment: '&c&lYou Already have the greatest enchantment'
+  generator-upgrade: '{MatName} generator has been upgraded to {tier}'
+  shout-format: '&6[SHOUT] {color}[{team}]&r {player}&7: &r{message}'
+  trap-triggered:
+    title: '&cTrap Triggered!'
+    sub-title: '&eSomeone has entered your base!'
+  blindness-trap-purchased-title: '&6Blindness Trap has been purchased!'
+  purchase-heal-pool: '&bHeal Pool has been purchased by: {player}'
+  cannot-buy: '&cYou don''t have enough {price}'
+  purchase: '&aYou purchased &e{item}'
+  respawn-title: '&cYOU DIED!'
+  respawn-subtitle: '&eYou will respawn in &c%time% &eseconds'
+  respawned-title: '&eYou have respawned'
+  cannot-put-item-on-chest: You cannot put this item onto this chest.
+  upgrade: 'Upgrade: '
+  not-in-game:
+  - '&6-----------------------------------------------------'
+  - '&cYou are not in a game to do this command!'
+  - '&6-----------------------------------------------------'
+  shout-wait:
+  - '&6-----------------------------------------------------'
+  - '&cYou have to wait {seconds} seconds before doing this command!'
+  - '&6-----------------------------------------------------'
+disable-sword-armor-damage: true
+shop-name: '&bShop'
+games-inventory:
+  enabled: true
+  stack-material: PAPER
+  stack-lore:
+  - '&8{mode}'
+  - ''
+  - '&7Available Servers: &a1'
+  - '&7Status: &a{status}'
+  - '&7Players:&a {players}'
+  - ''
+  - '&aClick to play'
+  - '&eRight click to toggle favorite!'
+  gui:
+    solo-prefix: Bed Wars Solo
+    double-prefix: Bed Wars Doubles
+    triple-prefix: Bed Wars Triples
+    squad-prefix: Bed Wars Squads
+  back-item:
+    name: '&aGo Back'
+    lore:
+    - '&7To Play Bed Wars'
+  firework-name: '&aRandom Map'
+  firework-lore:
+  - '&8{mode}'
+  - ''
+  - '&7Map Selections: &a{games}'
+  - ''
+  - '&aClick to Play'
+  diamond-name: '&aRandom Favorite'
+  oak_sign-name: '&aMap Selector ({mode})'
+  oak_sign-lore:
+  - '&7Pick which map you want to play'
+  - '&7from a list of available servers.'
+  - ' '
+  - '&eClick to browse!'
+  barrier-name: '&cExit'
+  ender_pearl-name: '&cClick here to rejoin!'
+  ender_pearl-lore:
+  - '&7Click here to rejoin the lastly joined game'
+  bed-name: '&aBed Wars ({mode})'
+  bed-lore:
+  - '&7Play Bed Wars {mode}'
+  - ' '
+  - '&eClick to play!'
+game-start:
+  message:
+  - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  - '                             &f&lBed Wars'
+  - ''
+  - '    &e&lProtect your bed and destroy the enemy beds.'
+  - '     &e&lUpgrade yourself and your team by collecting'
+  - '   &fIron&e&l, &6Gold&e&l, &AEmerald &e&land &dDiamond from generators'
+  - '            &e&lto access powerful upgrades.'
+  - ''
+  - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+overstats:
+  message:
+  - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  - '                             &e&lBEDWARS'
+  - ''
+  - '                             {color}{win_team}'
+  - '                             {win_team_players}'
+  - ''
+  - '    &e&l1st&7 - &f{first_1_kills_player} &7- &f{first_1_kills}'
+  - '    &6&l2nd&7 - &f{first_2_kills_player} &7- &f{first_2_kills}'
+  - '    &c&l3rd&7 - &f{first_3_kills_player} &7- &f{first_3_kills}'
+  - ''
+  - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+scoreboard:
+  you: '&7YOU'
+  lines:
+    default:
+    - '&7{date}'
+    - ''
+    - '{tier}'
+    - ''
+    - '{team_status}'
+    - ''
+    - '&fKills: &a{kills}'
+    - '&fBed Broken: &a{beds}'
+    - ''
+    - '&ewww.minecraft.net'
+    '5':
+    - '&7{date}'
+    - ''
+    - '{tier}'
+    - ''
+    - '{team_status}'
+    - ''
+    - '&ewww.minecraft.net'
+lobby_scoreboard:
+  lines:
+  - '&7{date}'
+  - ''
+  - ' &e⇢ &fMap: &a{game}'
+  - ' &e⇢ &fPlayers: &a{players}/{maxplayers}'
+  - ''
+  - '{state}'
+  - ''
+  - '&8◦ &fMode: &a{mode}'
+  - '&8◦ &fVersion: &7v1.1'
+  - ''
+  - '    &5&nPlugin By: &c&oItzAnu_'
+party:
+  leader-autojoin-autoleave: true
+  size: 4
+  message:
+    cannotinvite:
+    - '&6-----------------------------------------------------'
+    - '&cYou cannot invite this player to your party!'
+    - '&6-----------------------------------------------------'
+    no-other-commands:
+    - '&6-----------------------------------------------------'
+    - '&cYou cannot do other commands now'
+    - '&6-----------------------------------------------------'
+    leader-join-leave:
+    - '&6-----------------------------------------------------'
+    - '&cYou have been teleported by the party leader'
+    - '&6-----------------------------------------------------'
+    expired:
+    - '&6-----------------------------------------------------'
+    - '&cThe party invite has been expired'
+    - '&6-----------------------------------------------------'
+    invalid-command:
+    - '&6-----------------------------------------------------'
+    - '&cInvalid command, do /p help for more.'
+    - '&6-----------------------------------------------------'
+    access-denied:
+    - '&6-----------------------------------------------------'
+    - '&cYou cannot access this command'
+    - '&6-----------------------------------------------------'
+    notinparty:
+    - '&6-----------------------------------------------------'
+    - '&cYou are currently not in a party!'
+    - '&6-----------------------------------------------------'
+    invited:
+    - '&6-----------------------------------------------------'
+    - '&eYou have invited {player}&e to your party!'
+    - '&ewait for them to accept it'
+    - '&6-----------------------------------------------------'
+    alreadyInvited:
+    - '&6-----------------------------------------------------'
+    - '&cThis player has already had pending invites!'
+    - '&6-----------------------------------------------------'
+    warp:
+    - '&6-----------------------------------------------------'
+    - '&eYou have been warped by the leader'
+    - '&6-----------------------------------------------------'
+    warping:
+    - '&6-----------------------------------------------------'
+    - '&eWarping players..'
+    - '&6-----------------------------------------------------'
+    invite:
+    - '&6-----------------------------------------------------'
+    - '{player}&e has invited you to join their party!'
+    - '&eType /party accept to join. You have 60 seconds to accept.'
+    - '&6-----------------------------------------------------'
+    accepted:
+    - '&6-----------------------------------------------------'
+    - '{player} &ajoined the party!'
+    - '&6-----------------------------------------------------'
+    offline-left:
+    - '&6-----------------------------------------------------'
+    - '{player} &aleft the party due to inactivity'
+    - '&6-----------------------------------------------------'
+    left:
+    - '&6-----------------------------------------------------'
+    - '&cYou left the party!'
+    - '&6-----------------------------------------------------'
+    offline-quit:
+    - '&6-----------------------------------------------------'
+    - '{player} &cleft the party'
+    - '&6-----------------------------------------------------'
+    declined:
+    - '&6-----------------------------------------------------'
+    - '{player} &chas declined this party invite'
+    - '&6-----------------------------------------------------'
+    kicked:
+    - '&6-----------------------------------------------------'
+    - '{player} &cHas been kicked from party'
+    - '&6-----------------------------------------------------'
+    disband-inactivity:
+    - '&6-----------------------------------------------------'
+    - '&aParty has been disbanded due to inactivity'
+    - '&6-----------------------------------------------------'
+    disband:
+    - '&6-----------------------------------------------------'
+    - '&cParty has been disbanded by the leader.'
+    - '&6-----------------------------------------------------'
+    player-not-found:
+    - '&6-----------------------------------------------------'
+    - '&cCould not find Player!'
+    - '&6-----------------------------------------------------'
+    cannot-blank-yourself:
+    - '&6-----------------------------------------------------'
+    - '&cYou can''t {blank} yourself.'
+    - '&6-----------------------------------------------------'
+    cannot-invite-yourself:
+    - '&6-----------------------------------------------------'
+    - '&cYou can''t invite yourself.'
+    - '&6-----------------------------------------------------'
+    not-invited:
+    - '&6-----------------------------------------------------'
+    - '&cYou are not invited to any party'
+    - '&6-----------------------------------------------------'
+    got-kicked:
+    - '&6-----------------------------------------------------'
+    - '&cYou have been kicked from party'
+    - '&6-----------------------------------------------------'
+    decline-inc:
+    - '&6-----------------------------------------------------'
+    - '&cTo invite, you must decline current invites.'
+    - '&6-----------------------------------------------------'
+    declined-user:
+    - '&6-----------------------------------------------------'
+    - '&cYou declined the invite!'
+    - '&6-----------------------------------------------------'
+    chat-enable-disabled:
+    - '&6-----------------------------------------------------'
+    - '&aParty chat has been {mode}'
+    - '&6-----------------------------------------------------'
+    help:
+    - '&1-----------------------------------------------------'
+    - '&6Party commands'
+    - '&e/p accept <player>&7 - Accept a party invite from a player'
+    - '&e/p invite <player>&7 - Invite another player to your party'
+    - '&e/p list&7 - Lists the players in your current party'
+    - '&e/p leave&7 - Leaves your current party'
+    - '&1-----------------------------------------------------'
+main-lobby:
+  enabled: true
+  title: '&e&lBED WARS'
+  custom-chat: true
+  chat-format: '{color}[{level}✫] {name}: {message}'
+  lines:
+  - ''
+  - ' &e⇢ &fYour Level: &a{level}'
+  - ''
+  - ' &fProgress: &a{progress}'
+  - ' {bar}'
+  - ''
+  - ' &e⇢ &fPoints: &a0 ⛃'
+  - ''
+  - ' &8◦ &fTotal Kills: &a{kills}'
+  - ' &8◦ &fTotal Deaths: &a{deaths}'
+  - ' &8◦ &fTotal Wins: &a{wins}'
+  - ''
+  - '    &5&nPlugin By: &c&oItzAnu_'
+  world: Lobby
+  x: 0.6607660355324094
+  y: 81.0625
+  z: 0.7465068435029079
+  yaw: -61.281364
+  pitch: 2.2260685
+commands:
+  invalid-command: '[SBAHypixelify] &cUnknown command, do /bwaddon help for more.'
+  player-only: '[SBAHypixelify] &cOnly players can use this command!'
+  no-permissions: '[SBAHypixelify]&cYou do not have permissions to do this command!'

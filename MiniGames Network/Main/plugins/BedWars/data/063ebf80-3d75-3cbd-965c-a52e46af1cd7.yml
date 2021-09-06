@@ -1,0 +1,46 @@
+GamesPlayed:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+BedsBroken:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+BedsLost:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+Losses:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+Wins:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+FinalKills:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+FinalDeaths:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+Kills:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+Deaths:
+  DOUBLES: 0
+  QUARTETS: 0
+  TRIPLES: 0
+  SOLO: 0
+SkinName: VILLAGER

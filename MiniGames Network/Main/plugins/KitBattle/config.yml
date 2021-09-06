@@ -1,0 +1,48 @@
+# -=-=-=   Config - Plugin made by Wazup92   =-=-=- #
+# Leave On-PlayerDeath as 0 if you dont want players to lose anything, to active it the number must be 1 or bigger!!
+# Only use true/false!
+# Only use lowercase commands in Allowed-Commands
+# Each time you change 'Use-UUID' you have to reset your players.yml!
+
+Use-UUID: false
+On-PlayerKill: 7
+On-PlayerDeath: 0
+Default-Kit: Pvp
+Starting-Tokens: 500
+Inventories-Size: 36
+Killstreaks-Enabled: true
+Soup-Enabled: true
+Consume-Hunger: false
+Sponges-Enabled: true
+Upgrades-Enabled: true
+Can-PickUp-Items: false
+Instant-Remove-Bowl-On-Drop: false
+Leveling-Up-Enabled: true
+Max-Exp-Earn: 5
+BroadcastLevelup-ForServer: false
+Display-Ranks-InChat: false
+Ranks-Prefix: '&6[%rank%] '
+Give-Book: false
+Required-GameMode: survival
+No-Falldamage: true
+Kit-Unlocker-Enabled: true
+Give-Kit-Unlocker-At-First-Join: true
+Give-Kit-Unlocker-At-Ranking-Up: true
+StomperAbility-Cooldown: 15
+EndermageAbility-Cooldown: 10
+BomberAbility-Cooldown: 5
+ThorAbility-Cooldown: 10
+MonkAbility-Cooldown: 30
+ReaperAbility-Cooldown: 30
+NecromancerAbility-Cooldown: 30
+NecromancerZombies-Lastfor: 10
+HadesAbility-Cooldown: 60
+HadesWolfs-Lastfor: 15
+HadesAbility-Wolfs: 4
+Allowed-Commands:
+- tell
+- msg
+- hub
+Load-DefaultKits: false
+Load-DefaultUpgrades: false
+Transfer-Old-Stats: false

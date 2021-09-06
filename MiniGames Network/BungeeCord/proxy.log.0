@@ -1,0 +1,191 @@
+21:08:11 [INFO] Using standard Java JCE cipher.
+21:08:11 [INFO] Using standard Java compressor.
+21:08:11 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:bda1605:1598
+21:08:13 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:08:13 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:08:13 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:08:13 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:08:13 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:08:13 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:08:13 [INFO] Attempting to update plugin from null to ModuleVersion(build=1598, git=bda1605)
+21:08:13 [INFO] Attempting to Jenkins download module cmd_alert v1598
+21:08:14 [INFO] Download complete
+21:08:14 [INFO] Attempting to update plugin from null to ModuleVersion(build=1598, git=bda1605)
+21:08:14 [INFO] Attempting to Jenkins download module cmd_find v1598
+21:08:14 [INFO] Download complete
+21:08:14 [INFO] Attempting to update plugin from null to ModuleVersion(build=1598, git=bda1605)
+21:08:14 [INFO] Attempting to Jenkins download module cmd_list v1598
+21:08:14 [INFO] Download complete
+21:08:14 [INFO] Attempting to update plugin from null to ModuleVersion(build=1598, git=bda1605)
+21:08:14 [INFO] Attempting to Jenkins download module cmd_send v1598
+21:08:14 [INFO] Download complete
+21:08:14 [INFO] Attempting to update plugin from null to ModuleVersion(build=1598, git=bda1605)
+21:08:14 [INFO] Attempting to Jenkins download module cmd_server v1598
+21:08:14 [INFO] Download complete
+21:08:14 [INFO] Attempting to update plugin from null to ModuleVersion(build=1598, git=bda1605)
+21:08:14 [INFO] Attempting to Jenkins download module reconnect_yaml v1598
+21:08:14 [INFO] Download complete
+21:08:14 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:14 [INFO] Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [WARNING] Forced host server pvp is not defined
+21:08:15 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+21:08:15 [INFO] Listening on /0.0.0.0:25577
+08:43:26 [INFO] Using standard Java JCE cipher.
+08:43:26 [INFO] Using standard Java compressor.
+08:43:26 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:bda1605:1598
+08:43:27 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+08:43:27 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+08:43:27 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+08:43:27 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+08:43:27 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+08:43:27 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+08:43:27 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [WARNING] Forced host server pvp is not defined
+08:43:27 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:27 [INFO] Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+08:43:29 [INFO] Listening on /0.0.0.0:25577
+10:26:11 [INFO] Using standard Java JCE cipher.
+10:26:11 [INFO] Using standard Java compressor.
+10:26:11 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:bda1605:1598
+10:26:11 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+10:26:11 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+10:26:11 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+10:26:11 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+10:26:11 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+10:26:11 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+10:26:11 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+10:26:11 [INFO] Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+10:26:11 [INFO] Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+10:26:11 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+10:26:11 [INFO] Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+10:26:11 [INFO] Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+10:26:11 [SEVERE] Exception in thread "main" 
+10:26:11 [SEVERE] java.lang.RuntimeException: Invalid configuration encountered - this is a configuration error and NOT a bug! Please attempt to fix the error or see https://www.spigotmc.org/ for help.
+10:26:11 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.load(YamlConfig.java:73)
+10:26:11 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:71)
+10:26:11 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:274)
+10:26:11 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+10:26:11 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+10:26:11 [SEVERE] Caused by: while scanning an anchor
+ in 'reader', line 3, column 11:
+        motd: &e&l&m--&9&8&l[&r &6&lMiniGames  ... 
+              ^
+unexpected character found &(38)
+ in 'reader', line 3, column 13:
+        motd: &e&l&m--&9&8&l[&r &6&lMiniGames Ne ... 
+                ^
+
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.scanner.ScannerImpl.scanAnchor(ScannerImpl.java:1507)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchAnchor(ScannerImpl.java:958)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:389)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:248)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:633)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:165)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:221)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:191)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:309)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:300)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:146)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:151)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+10:26:11 [SEVERE] 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:429)
+10:26:11 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.load(YamlConfig.java:70)
+10:26:11 [SEVERE] 	... 4 more
+13:28:12 [INFO] Using standard Java JCE cipher.
+13:28:12 [INFO] Using standard Java compressor.
+13:28:12 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:bda1605:1598
+13:28:12 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+13:28:12 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+13:28:12 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+13:28:12 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+13:28:12 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+13:28:12 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:28:12 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:28:12 [INFO] Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:28:12 [INFO] Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:28:12 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:28:12 [INFO] Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:28:12 [INFO] Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:28:12 [SEVERE] Exception in thread "main" 
+13:28:12 [SEVERE] java.lang.IllegalArgumentException: Server main (priority 1) is not defined
+13:28:12 [SEVERE] 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:359)
+13:28:12 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:135)
+13:28:12 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:274)
+13:28:12 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+13:28:12 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+13:39:59 [INFO] Using standard Java JCE cipher.
+13:39:59 [INFO] Using standard Java compressor.
+13:39:59 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.17-R0.1-SNAPSHOT:bda1605:1598
+13:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+13:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+13:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+13:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+13:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+13:39:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:39:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [WARNING] Forced host server pvp is not defined
+13:39:59 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Enabled plugin cmd_server version git:cmd_server:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:39:59 [INFO] Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:bda1605:1598 by SpigotMC
+13:40:00 [WARNING] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+13:44:11 [INFO] §cCommand not found

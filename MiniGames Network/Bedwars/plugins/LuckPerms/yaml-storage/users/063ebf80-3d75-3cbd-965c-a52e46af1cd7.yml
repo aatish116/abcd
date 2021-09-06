@@ -1,0 +1,12 @@
+uuid: 063ebf80-3d75-3cbd-965c-a52e46af1cd7
+name: NoScopeFTW
+primary-group: default
+permissions:
+- ProCosmetics.Balloons.Kitten
+- ProCosmetics.Gadgets.Ethereal-Pearl
+- ProCosmetics.Gadgets.Grappling-Hook
+- ProCosmetics.Morphs.Bat
+- ProCosmetics.Morphs.Dog
+- ProCosmetics.Pets.Puppy
+parents:
+- default

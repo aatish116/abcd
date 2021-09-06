@@ -1,0 +1,118 @@
+"no-perm\xc4\xb1ss\xc4\xb1on": '&cYou don''t have permission.'
+game-null: '&cThis game doesn''t exist.'
+game-full: '&cThis arena is full.'
+"already-\xc4\xb1n-game": '&cYou are already in a game.'
+"game-\xc4\xb1s-started": '&cThis arena is in game.'
+"game-start\xc4\xb1ng-\xc4\xb1n": '&eThe game is starting in <seconds> seconds.'
+start-cancelled: '&cWe don''t have enough players!Start cancelled.'
+"player-jo\xc4\xb1ned-\xc4\xb1n-game": '&7<player>&e has joined (&b<inGame>&e/&b<max>&e)!'
+"player-left-\xc4\xb1n-game": '&7<player>&e left the game (&b<inGame>&e/&b<max>&e)!'
+"not-\xc4\xb1n-game": ''
+member-leave: '&cThe other member from your team left the game.'
+"team-el\xc4\xb1m\xc4\xb1nated": '&aTeam <teamColor><team> &ahas been eliminated.'
+"player-d\xc4\xb1sconnected": <teamColor><player> &ehas disconnected.
+"player-rejo\xc4\xb1n": <teamColor><player> &ehas reconnected.
+"cant-rejo\xc4\xb1n": '&cYou can''t rejoin in this arena.'
+"player-jo\xc4\xb1ned-\xc4\xb1n-party": '&a<player> joined in party.'
+"party-jo\xc4\xb1n": '&aYou''ve joined in <player> party.'
+"\xc4\xb1nv\xc4\xb1te-yourself-party": '&cYou can''t invite yourself.'
+"only-leader-can-\xc4\xb1nv\xc4\xb1te": '&cOnly party leader can invite players.'
+"player-\xc4\xb1n-party": '&cThe player <player> is already in a party.'
+party-request-sent: '&1Party invite sent to <player>'
+"party-\xc4\xb1nv\xc4\xb1te-exp\xc4\xb1red": '&cYour party invite timed out.'
+cant-accept-yourselft: '&cYou can''t accept yourself a party invite'
+no-party-request: '&cYou don''t have any party requst'
+"party-request-rece\xc4\xb1ved": '&aParty request from <player>.Click here to accept
+  it.'
+"not-\xc4\xb1n-party": '&cYou are not in any party.'
+party-leave: '&ePlayer <player> left from the party.'
+"party-d\xc4\xb1sband-by-leader": '&eThe player has been disbaned by the leader.'
+"party-d\xc4\xb1sband-by-s\xc4\xb1ze": '&eThe party has been disbaned due to size.'
+player-left-from-party: '&e<player> left your party.'
+"only-leader-can-k\xc4\xb1ck": '&cOnly the leader can kick players from party.'
+"not-\xc4\xb1n-your-party": '&e<player> is not in your party.'
+"player-k\xc4\xb1cked-from-party": '&eThe player <player> has been kicked from party.'
+"party-k\xc4\xb1ck": '&eYou have been kicked from party by <player>.'
+"only-leader-can-d\xc4\xb1sband": '&cOnly the party leader can disband the party.'
+"player-k\xc4\xb1lled": <playerTeamColor><player>(<playerTeam>) was killed by <killerTeamColor><killer>(<killerTeam>) <isFinalKill>!
+"player-knocked-vo\xc4\xb1d": <playerTeamColor><player> was knocked into void by <damagerTeamColor><damager> <isFinalKill>!
+"player-fall-\xc4\xb1n-vo\xc4\xb1d": <playerTeamColor><player> fall in void.
+"player-d\xc4\xb1ed": <playerTeamColor><player> died.
+"player-k\xc4\xb1lled-by-tnt": <playerTeamColor><player> has been killed by <killerTeamColor><killer> TNT <isFinalKill>!
+"player-k\xc4\xb1lled-by-arrow": <playerTeamColor><player> has been killed by <killerTeamColor><killer> arrow <isFinalKill>!
+"player-k\xc4\xb1lled-by-f\xc4\xb1reball": <playerTeamColor><player> has been killed by <killerTeamColor><killer> arrow <isFinalKill>!
+"player-k\xc4\xb1lled-by-golem": <playerTeamColor><player> has been killed by <golemTeamColor><golemTeam> golem.
+"player-k\xc4\xb1lled-by-s\xc4\xb1lverf\xc4\xb1sh": <playerTeamColor><player> has been killed by <silverfishTeamColor><silverfishTeam> silverfish.
+"player-k\xc4\xb1lled-h\xc4\xb1mself": <playerTeamColor><player> killed himself <isFinalKill>!
+"player-fell-h\xc4\xb1gh-place": <playerTeamColor><player> fell from a high place.<isFinalKill>
+"f\xc4\xb1nal-k\xc4\xb1ll-d\xc4\xb1splay": '&b&lFINAL KILL'
+bed-destroyed: <teamColor><team> bed has been destroyed by <player>.
+destroy-your-bed: '&cYou can''t destroy your bed.'
+destroy-not-placed-block: '&cYou can only destroy placed blocks.'
+"\xc4\xb1ron-golem-l\xc4\xb1m\xc4\xb1t": '&cYou have more golem than the limit.'
+"s\xc4\xb1lverf\xc4\xb1sh-l\xc4\xb1m\xc4\xb1t": '&cYou have more silverfish than the
+  limit.'
+"player-offl\xc4\xb1ne": '&cError!This player is offline.'
+"jo\xc4\xb1n-command-usage": '&eUse command: &a/bedwars join <arenaName> to join in
+  arena.'
+"sk\xc4\xb1n-doesnt-ex\xc4\xb1st": '&cSkin name <skinName> doesn''t exist.'
+"no-perm\xc4\xb1ss\xc4\xb1on-for-sk\xc4\xb1n": '&cYou don''t have permission for skin
+  <skinName>.'
+"your-sk\xc4\xb1n-set": '&aYour shop keeper skin has been set to <skinName>.'
+"player-sk\xc4\xb1n-set": '&aPlayer <playerName> shop keeper skin has bene set to
+  <skinName>.'
+bungeecord-motd: <gamestate>,&a<inGame>/<max>
+gametype-null: '&cThis game type doesn''t exist.'
+"player-not-\xc4\xb1n-game": '&cPlayer <playerName> is not in game.'
+"cant-f\xc4\xb1nd-any-arena": '&cI can''t find any arena.'
+teleported-to: '&aYou were teleported to &7<player>.'
+"shout-m\xc4\xb1ss\xc4\xb1ng-arguments": '&cMissing arguments!Usage: /shout <message>'
+no-permission: '&cYou don''t have permission.'
+already-in-game: '&cYou are already in a game.'
+game-is-started: '&cThis arena is in game.'
+game-starting-in: '&eThe game is starting in <seconds> seconds.'
+player-joined-in-game: '&7<player>&e has joined (&b<inGame>&e/&b<max>&e)!'
+player-left-in-game: '&7<player>&e left the game (&b<inGame>&e/&b<max>&e)!'
+not-in-game: ''
+team-eliminated: '&aTeam <teamColor><team> &ahas been eliminated.'
+player-disconnected: <teamColor><player> &ehas disconnected.
+player-rejoin: <teamColor><player> &ehas reconnected.
+cant-rejoin: '&cYou can''t rejoin in this arena.'
+player-joined-in-party: '&a<player> joined in party.'
+party-join: '&aYou''ve joined in <player> party.'
+invite-yourself-party: '&cYou can''t invite yourself.'
+only-leader-can-invite: '&cOnly party leader can invite players.'
+player-in-party: '&cThe player <player> is already in a party.'
+party-invite-expired: '&cYour party invite timed out.'
+party-request-received: '&aParty request from <player>.Click here to accept it.'
+not-in-party: '&cYou are not in any party.'
+party-disband-by-leader: '&eThe player has been disbaned by the leader.'
+party-disband-by-size: '&eThe party has been disbaned due to size.'
+only-leader-can-kick: '&cOnly the leader can kick players from party.'
+not-in-your-party: '&e<player> is not in your party.'
+player-kicked-from-party: '&eThe player <player> has been kicked from party.'
+party-kick: '&eYou have been kicked from party by <player>.'
+only-leader-can-disband: '&cOnly the party leader can disband the party.'
+player-killed: <playerTeamColor><player>(<playerTeam>) was killed by <killerTeamColor><killer>(<killerTeam>) <isFinalKill>!
+player-knocked-void: <playerTeamColor><player> was knocked into void by <damagerTeamColor><damager> <isFinalKill>!
+player-fall-in-void: <playerTeamColor><player> fall in void.
+player-died: <playerTeamColor><player> died.
+player-killed-by-tnt: <playerTeamColor><player> has been killed by <killerTeamColor><killer> TNT <isFinalKill>!
+player-killed-by-arrow: <playerTeamColor><player> has been killed by <killerTeamColor><killer> arrow <isFinalKill>!
+player-killed-by-fireball: <playerTeamColor><player> has been killed by <killerTeamColor><killer> arrow <isFinalKill>!
+player-killed-by-golem: <playerTeamColor><player> has been killed by <golemTeamColor><golemTeam> golem.
+player-killed-by-silverfish: <playerTeamColor><player> has been killed by <silverfishTeamColor><silverfishTeam> silverfish.
+player-killed-himself: <playerTeamColor><player> killed himself <isFinalKill>!
+player-fell-high-place: <playerTeamColor><player> fell from a high place.<isFinalKill>
+final-kill-display: '&b&lFINAL KILL'
+iron-golem-limit: '&cYou have more golem than the limit.'
+silverfish-limit: '&cYou have more silverfish than the limit.'
+player-offline: '&cError!This player is offline.'
+join-command-usage: '&eUse command: &a/bedwars join <arenaName> to join in arena.'
+skin-doesnt-exist: '&cSkin name <skinName> doesn''t exist.'
+no-permission-for-skin: '&cYou don''t have permission for skin <skinName>.'
+your-skin-set: '&aYour shop keeper skin has been set to <skinName>.'
+player-skin-set: '&aPlayer <playerName> shop keeper skin has bene set to <skinName>.'
+player-not-in-game: '&cPlayer <playerName> is not in game.'
+cant-find-any-arena: '&cI can''t find any arena.'
+shout-missing-arguments: '&cMissing arguments!Usage: /shout <message>'

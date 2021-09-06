@@ -1,0 +1,8 @@
+locations:
+- ==: org.bukkit.Location
+  world: bedwars
+  x: 5020.5
+  y: 98.62
+  z: 987.5
+  pitch: 8.999868
+  yaw: -265.69455

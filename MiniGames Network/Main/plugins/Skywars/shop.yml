@@ -1,0 +1,101 @@
+# Format: 'Slot: Item'
+
+Shops:
+  '&cKits #1':
+    '10': Griefer
+    '11': Miner
+    '12': Armorer
+    '13': Trainer
+    '14': Builder
+    '15': Tactician
+    '16': Hunter
+    '19': Snowman
+    '20': Smith
+    '21': Necromancer
+    '22': Enchanter
+    '23': Cannoneer
+    '24': Armorer+
+    '25': Miner+
+    '28': Hunter+
+    '29': Lumberjack
+    '30': Fisherman
+    '31': Troll
+    '32': Pyro
+    '33': Blaze
+    '34': Knight
+    '37': Farmer
+  '&9Cages #1':
+    '10': Brown Cage
+    '11': Wood Cage
+    '12': Grass Cage
+    '13': Orange Cage
+    '14': Log Cage
+    '15': Purple Cage
+    '16': Lime Cage
+    '19': Yellow Cage
+    '20': Gray Cage
+    '21': Magenta Cage
+    '22': Dirt Cage
+    '23': Melon Cage
+    '24': Brick Cage
+    '25': White Cage
+    '28': Stone Cage
+    '29': Cyan Cage
+    '30': Sandstone Cage
+    '31': Red Cage
+    '32': Cobblestone Cage
+    '33': Green Cage
+    '34': Black Cage
+    '37': Pink Cage
+    '38': Snow Cage
+    '39': Sponge Cage
+    '40': Blue Cage
+    '41': Yellow+ Cage
+    '42': Pink+ Cage
+    '43': Furnace Cage
+  '&9Cages #2':
+    '10': Bookshelf Cage
+    '11': Workbench Cage
+    '12': Green+ Cage
+    '13': White+ Cage
+    '14': Ice Cage
+    '15': Brown+ Cage
+    '16': Cyan+ Cage
+    '19': Lime+ Cage
+    '20': Purple+ Cage
+    '21': Black+ Cage
+    '22': Obsidian Cage
+    '23': Gray+ Cage
+    '24': Pumpkin Cage
+    '25': Orange+ Cage
+    '28': Blue+ Cage
+    '29': Magenta+ Cage
+    '30': Red+ Cage
+    '31': Tnt Cage
+    '32': Diamond Cage
+    '33': Emerald Cage
+    '34': Glowstone Cage
+    '37': Redstone Cage
+  '&eTrails #1':
+    '10': Dirt Trail
+    '11': Melon Trail
+    '12': Sandstone Trail
+    '13': Wood Trail
+    '14': Snow Trail
+    '15': Cobblestone Trail
+    '16': Grass Trail
+    '19': Stone Trail
+    '20': Brick Trail
+    '21': Sponge Trail
+    '22': Log Trail
+    '23': Obsidian Trail
+    '24': Furnace Trail
+    '25': Pumpkin Trail
+    '28': Workbench Trail
+    '29': Ice Trail
+    '30': Bookshelf Trail
+    '31': Redstone Trail
+    '32': Tnt Trail
+    '33': Glowstone Trail
+    '34': Emerald Trail
+    '37': Diamond Trail

@@ -1,0 +1,183 @@
+# To reset this file you must delete it and do /sg reload or /reload WHILE there are no online players.
+# For mysql users the samething and for deleting the table please only delete it while the server is offline or mysql is turned off
+Players:
+  UzumakiYT:
+    Coins: 70
+    Kills: 2
+    Deaths: 4
+    Wins: 3
+    Gamesplayed: 7
+    Modifier: 1
+    Play_Time: 0D-0H-4M-17S
+    Kits: ''
+    Name: UzumakiYT
+  Rasen_Shuriken2k:
+    Coins: 45
+    Kills: 1
+    Deaths: 0
+    Wins: 2
+    Gamesplayed: 2
+    Modifier: 1
+    Play_Time: 0D-0H-1M-14S
+    Kits: ''
+    Name: Rasen_Shuriken2k
+  jacklinc:
+    Coins: 0
+    Kills: 0
+    Deaths: 1
+    Wins: 0
+    Gamesplayed: 1
+    Modifier: 1
+    Play_Time: 0D-0H-0M-36S
+    Kits: ''
+    Name: jacklinc
+  HinataYT:
+    Coins: 70
+    Kills: 2
+    Deaths: 6
+    Wins: 3
+    Gamesplayed: 9
+    Modifier: 1
+    Play_Time: 0D-0H-3M-3S
+    Kits: ''
+    Name: HinataYT
+  LuisBaggins:
+    Coins: 60
+    Kills: 4
+    Deaths: 1
+    Wins: 2
+    Gamesplayed: 3
+    Modifier: 1
+    Play_Time: 0D-0H-0M-46S
+    Kits: ''
+    Name: LuisBaggins
+  Miner_XO:
+    Coins: 0
+    Kills: 0
+    Deaths: 0
+    Wins: 0
+    Gamesplayed: 0
+    Modifier: 1
+    Play_Time: 0D-0H-0M-0S
+    Kits: ''
+    Name: Miner_XO
+  _SirFiilzko:
+    Coins: 0
+    Kills: 0
+    Deaths: 1
+    Wins: 0
+    Gamesplayed: 1
+    Modifier: 1
+    Play_Time: 0D-0H-0M-14S
+    Kits: ''
+    Name: _SirFiilzko
+  ImBow:
+    Coins: 0
+    Kills: 0
+    Deaths: 1
+    Wins: 0
+    Gamesplayed: 1
+    Modifier: 1
+    Play_Time: 0D-0H-0M-10S
+    Kits: ''
+    Name: ImBow
+  McLovin61:
+    Coins: 0
+    Kills: 0
+    Deaths: 0
+    Wins: 0
+    Gamesplayed: 0
+    Modifier: 1
+    Play_Time: 0D-0H-2M-10S
+    Kits: ''
+    Name: McLovin61
+  Adelin_Yt:
+    Coins: 70
+    Kills: 2
+    Deaths: 1
+    Wins: 3
+    Gamesplayed: 4
+    Modifier: 1
+    Play_Time: 0D-0H-2M-4S
+    Kits: ''
+    Name: Adelin_Yt
+  fools9:
+    Coins: 0
+    Kills: 0
+    Deaths: 0
+    Wins: 0
+    Gamesplayed: 0
+    Modifier: 1
+    Play_Time: 0D-0H-0M-0S
+    Kits: ''
+    Name: fools9
+  Kurama92:
+    Coins: 0
+    Kills: 0
+    Deaths: 1
+    Wins: 0
+    Gamesplayed: 1
+    Modifier: 1
+    Play_Time: 0D-0H-1M-16S
+    Kits: ''
+    Name: Kurama92
+  DragonHaCcKker:
+    Coins: 0
+    Kills: 0
+    Deaths: 0
+    Wins: 0
+    Gamesplayed: 0
+    Modifier: 1
+    Play_Time: 0D-0H-0M-0S
+    Kits: ''
+    Name: DragonHaCcKker
+  Hedar_Hgy2:
+    Coins: 0
+    Kills: 0
+    Deaths: 0
+    Wins: 0
+    Gamesplayed: 0
+    Modifier: 1
+    Play_Time: 0D-0H-0M-0S
+    Kits: ''
+    Name: Hedar_Hgy2
+  NoScopeFTW:
+    Coins: 0
+    Kills: 0
+    Deaths: 1
+    Wins: 0
+    Gamesplayed: 1
+    Modifier: 1
+    Play_Time: 0D-0H-1M-11S
+    Kits: ''
+    Name: NoScopeFTW
+  ItzAnu_:
+    Coins: 25
+    Kills: 1
+    Deaths: 0
+    Wins: 1
+    Gamesplayed: 1
+    Modifier: 1
+    Play_Time: 0D-0H-1M-11S
+    Kits: ''
+    Name: ItzAnu_
+  NoScopeFTW_YT:
+    Coins: 0
+    Kills: 0
+    Deaths: 0
+    Wins: 0
+    Gamesplayed: 0
+    Modifier: 1
+    Play_Time: 0D-0H-0M-0S
+    Kits: ''
+    Name: NoScopeFTW_YT
+  darkoster:
+    Coins: 0
+    Kills: 0
+    Deaths: 0
+    Wins: 0
+    Gamesplayed: 0
+    Modifier: 1
+    Play_Time: 0D-0H-0M-0S
+    Kits: ''
+    Name: darkoster

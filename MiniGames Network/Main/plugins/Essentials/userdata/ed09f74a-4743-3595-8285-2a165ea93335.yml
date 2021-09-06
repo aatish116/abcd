@@ -1,0 +1,23 @@
+lastAccountName: HinataYT
+timestamps:
+  login: 1517686450290
+  logout: 1517517331657
+  kits:
+    noob: 1517506817208
+  lastteleport: 1517684154506
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: bedwars
+  x: 5026.300000011921
+  y: 111.0
+  z: 999.1915038179811
+  yaw: 76.02573
+  pitch: 15.523457
+lastlocation:
+  world: bedwars
+  x: 4050.266910653504
+  y: 104.40288110902473
+  z: 17.793266977770937
+  yaw: 279.95593
+  pitch: 23.49605
+money: '6000'

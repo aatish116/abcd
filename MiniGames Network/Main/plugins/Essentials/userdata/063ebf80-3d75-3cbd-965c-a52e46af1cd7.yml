@@ -1,0 +1,26 @@
+lastAccountName: NoScopeFTW
+timestamps:
+  login: 1630915991355
+  kits:
+    godset: 1630400601753
+    youtuber: 1630304723031
+  logout: 1630916023138
+  lastteleport: 1630915380503
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 167.3845255425676
+  y: 69.0
+  z: 1483.009440162054
+  yaw: 18.150085
+  pitch: 10.800007
+nickname: NoScopeFTW
+money: '7800'
+lastlocation:
+  world: bedwars
+  x: 5006.925951917466
+  y: 100.0
+  z: 990.1606870475867
+  yaw: -231.59991
+  pitch: 33.299988
+afk: false

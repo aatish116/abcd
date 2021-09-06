@@ -1,0 +1,27 @@
+Prefix: '&8&l(&6Crates&8&l)&7'
+INVALID-CMD: Command not found.
+NO-PERMISSION: You don't have permission to use this command.
+NO-CRATEKEYS-CONFIG: Cannot find cratekeys config file!
+SUCCESS-CONVERT: CrateKeys config converted to Crates. Now you must go setup the materials and names for the GUI.
+INVALID-USAGE: That is not the right usage.
+NOT-A-CRATE: That is not a crate.
+KEY-IN-INVENTORY: You may not have a key in your inventory to open this.
+INVALID-PLAYER: Player must be online.
+SUCCESS-CRATE: You must now place down the case to register it as a crate.
+INVALID-AMOUNT: Amount must be an interger.
+SUCCESS-KEY: 'You now have %amount%x %crate% crate key(s).'
+RELOADING: Reloading Plugin...
+RELOAD-COMPLETE: Reload Complete. Took %ms%ms.
+ALREADY-OPENING: You must wait until your Crate is done opening!
+OPEN-WITHOUT-KEY: You must have a %crate% Key to use this.
+SAVED-TO-CONFIG: You have placed a %crate% Crate, Saving to config.
+SNEAK-TO-DESTROY: You must sneak to destory this Crate.
+DELETED-FROM-CONFIG: You have destoryed a Crate, Deleting from config.
+INVALID-MATERIAL: That material does not exist.
+INVALID-STRING: That was not a valid string.
+SUCCESS-SETITEM: You set the prizeitem for %crate%.
+OPEN-WHEN-CREATIVE: You may not be in creative mode when opening this crate.
+SUCCESS-SETBLOCKTYPE: You set the blocktype for %crate%.
+CANNOT-PLACE-KEY: You can not place a %crate% key here!
+ERROR-WHILE-OPENING: There was an error while opening this crate.
+ADMIN-ERROR-WHILE-OPENING: There seems to be an error with the items in this crate please check the config.

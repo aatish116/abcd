@@ -1,0 +1,8 @@
+uuid: ece661d4-e806-336f-82a1-aad5cd5271dc
+name: test12546522
+primary-group: default
+permissions:
+- ProCosmetics.Music.Gangnam-Style
+- ProCosmetics.Music.Let-It-Go
+parents:
+- default

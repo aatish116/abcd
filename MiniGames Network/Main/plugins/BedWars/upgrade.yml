@@ -1,0 +1,200 @@
+PurchaseMessage: '&aYou have purchased <item>.'
+NotEnoughResourcesMessage: '&cYou do not have enough resources.'
+EnoughResources: '&eClick to purchase.'
+NotEnoughResources: '&cYou do not have enough resources.'
+AlreadyPurchased: '&cYou have already purchased this.'
+InventoryName: '&7Upgrades'
+Upgrades:
+  Generator:
+    FirstName: '&cIron Forge'
+    SecondName: '&cGolden Forge'
+    ThirdName: '&cEmerald Forge'
+    FourthName: '&cMolten Forge'
+    MaxedName: '&eMolten Forge'
+    FirstLore:
+    - '&7Increases the spawn rate of Iron'
+    - '&7and Gold by 50%.'
+    - ''
+    - '&7Cost: &b2 Diamonds'
+    - ''
+    - <hasEnoughResources>
+    SecondLore:
+    - '&7Increases the spawn rate of Iron'
+    - '&7and Gold by 100%.'
+    - ''
+    - '&7Cost: &b4 Diamonds'
+    - ''
+    - <hasEnoughResources>
+    ThirdLore:
+    - '&7Activates the Emerald spawner in'
+    - '&7your team''s Forge.'
+    - ''
+    - '&7Cost: &b6 Diamonds'
+    - ''
+    - <hasEnoughResources>
+    FourthLore:
+    - '&7Increases the spawn rate of'
+    - '&7Emerald,Iron and Gold by 200%.'
+    - ''
+    - '&7Cost: &b8 Diamonds'
+    - ''
+    - <hasEnoughResources>
+    MaxedLore:
+    - '&7Increases the spawn rate of'
+    - '&7Emerald,Iron and Gold by 200%.'
+    - ''
+    - '&7Cost: &b8 Diamonds'
+    - ''
+    - '&aUNLOCKED'
+    FirstPrice: 2
+    SecondPrice: 2
+    ThirdPrice: 2
+    FourthPrice: 2
+  Haste:
+    FirstName: '&cManiac Miner'
+    SecondName: '&cManiac Miner'
+    MaxedName: '&cManiac Miner'
+    FirstLore:
+    - '&7All players on your team'
+    - '&7permanently gain Haste I.'
+    - ''
+    - '&7Cost: &b2 Diamonds'
+    - ''
+    - <hasEnoughResources>
+    SecondLore:
+    - '&7All players on your team'
+    - '&7permanently gain Haste II.'
+    - ''
+    - '&7Cost: &b4 Diamonds'
+    - ''
+    - <hasEnoughResources>
+    MaxedLore:
+    - '&7All players on your team'
+    - '&7permanently gain Haste II.'
+    - ''
+    - '&7Cost: &b4 Diamonds'
+    - ''
+    - '&aUNLOCKED'
+    FirstPrice: 2
+    SecondPrice: 4
+  SharpenedSwords:
+    FirstName: '&cSharpened Swords'
+    MaxedName: '&aSharpened Swords'
+    FirstLore:
+    - '&7Your team gets Sharpness I on'
+    - '&7all swords'
+    - ''
+    - '&7Cost: 4 &bDiamonds'
+    - ' '
+    - <hasEnoughResources>
+    MaxedLore:
+    - '&7Your team gets Sharpness I on'
+    - '&7all swords'
+    - ''
+    - '&7Cost: 4 &bDiamonds'
+    - ' '
+    - '&aUNLOCKED'
+    Price: 8
+  ReinforcedArmor:
+    FirstName: '&cReinforced Armor'
+    SecondName: '&cReinforced Armor'
+    ThirdName: '&cReinforced Armor'
+    FourthName: '&cReinforced Armor'
+    MaxedName: '&aReinforced Armor'
+    FirstLore:
+    - '&7Your team gets Protection I on'
+    - '&7all armor pieces!'
+    - ''
+    - '&7Cost: 2 &bDiamonds'
+    - ' '
+    - <hasEnoughResources>
+    SecondLore:
+    - '&7Your team gets Protection II on'
+    - '&7all armor pieces!'
+    - ''
+    - '&7Cost: 4 &bDiamonds'
+    - ' '
+    - <hasEnoughResources>
+    ThirdLore:
+    - '&7Your team gets Protection III on'
+    - '&7all armor pieces!'
+    - ''
+    - '&7Cost: 8 &bDiamonds'
+    - ' '
+    - <hasEnoughResources>
+    FourthLore:
+    - '&7Your team gets Protection IV on'
+    - '&7all armor pieces!'
+    - ''
+    - '&7Cost: 16 &bDiamonds'
+    - ' '
+    - <hasEnoughResources>
+    MaxedLore:
+    - '&7Your team gets Protection IV on'
+    - '&7all armor pieces!'
+    - ''
+    - '&7Cost: 16 &bDiamonds'
+    - ' '
+    - '&aUNLOCKED'
+    FirstPrice: 2
+    SecondPrice: 4
+    ThirdPrice: 8
+    FourthPrice: 16
+  Trap:
+    FirstName: '&cIt''s a Trap!'
+    MaxedName: '&aIt''s a Trap!'
+    FirstLore:
+    - '&7The next enemy to enter your'
+    - '&7base will receive Blindness and'
+    - '&7Slowness!'
+    - ''
+    - '&7Cost: &b1 Diamond'
+    - ''
+    - <hasEnoughResources>
+    MaxedLore:
+    - '&7The next enemy to enter your'
+    - '&7base will receive Blindness and'
+    - '&7Slowness!'
+    - ''
+    - '&7Cost: &b1 Diamond'
+    - ''
+    - '&aUNLOCKED'
+    Price: 1
+  MinerFatigue:
+    FirstName: '&cMiner Fatigue'
+    MaxedName: '&eMiner Fatigue'
+    FirstLore:
+    - '&7Gain Miner Fatigue I while'
+    - '&7within an 8 block radius of your'
+    - '&7bed.'
+    - ''
+    - '&7Cost: &b2 Diamond'
+    - ''
+    - <hasEnoughResources>
+    MaxedLore:
+    - '&7Gain Miner Fatigue I while'
+    - '&7within an 8 block radius of your'
+    - '&7bed.'
+    - ''
+    - '&7Cost: &b2 Diamond'
+    - ''
+    - '&aUNLOCKED'
+    Price: 2
+  HealPool:
+    FirstName: '&cHeal Pool'
+    MaxedName: '&eHeal Pool'
+    FirstLore:
+    - '&7Creates a Regeneration field'
+    - '&7around your base!'
+    - ''
+    - '&7Cost: &b1 Diamond'
+    - ''
+    - <hasEnoughResources>
+    MaxedLore:
+    - '&7Creates a Regeneration field'
+    - '&7around your base!'
+    - ''
+    - '&7Cost: &b1 Diamond'
+    - ''
+    - '&aUNLOCKED'
+    Price: 1

@@ -1,0 +1,91 @@
+YouDisplay: ' &7(You)'
+StartingDisplay: '&fStarting in &a<time>'
+SearchingDisplay: '&fSearching players...'
+EventDisplay:
+  DiamondUpgrade: '&fDiamond Upgrade'
+  EmeraldUpgrade: '&fEmerald Maxed'
+  DiamondMaxed: '&fDiamond Maxed'
+  EmeraldMaxed: '&fEmerald Maxed'
+  BedDestruction: '&fBed Destruction'
+  TimeLeft: '&fTime Left'
+InWaiting-Enabled: true
+InWaiting-Title: '&e&l BED WARS'
+InWaiting:
+  Lines:
+  - ''
+  - '&fMap: &a<mapName>'
+  - '&fPlayers: &a<inGame>/<max>'
+  - ''
+  - <statusDisplay>
+  - ' '
+  - '&fServer: &amini31'
+  - ''
+  - '&ewww.servermc.com'
+Game:
+  Lotus-Enabled: true
+  Lotus-Title: '&e BED WARS'
+  Lotus:
+    Lines:
+    - ' '
+    - '<nextEvent>:'
+    - '&a<time>'
+    - ' '
+    - '&c&lR &fRed: <isAliveRed>'
+    - '&1&lB &fBlue: <isAliveBlue>'
+    - '&a&lG &fGreen:&f <isAliveGreen>'
+    - '&e&lY &fYellow: <isAliveYellow>'
+    - ' '
+    - '&ewww.servermc.com'
+  Amazon-Enabled: true
+  Amazon-Title: '&e&l BED WARS'
+  Amazon:
+    Lines:
+    - '&7<day>/<month>/<year>'
+    - ' '
+    - '<nextEvent>:'
+    - '&a<time>'
+    - ' '
+    - '&c&lR &fRed: <isAliveRed>'
+    - '&1&lB &fBlue: <isAliveBlue>'
+    - '&a&lG &fGreen:&f <isAliveGreen>'
+    - ' '
+    - '&ewww.servermc.com'
+  Hollow-Enabled: true
+  Hollow-Title: '&e BED WARS'
+  Hollow:
+    Lines:
+    - ' '
+    - '<nextEvent>:'
+    - '&a<time>'
+    - ' '
+    - '&c&lR &fRed: <isAliveRed>'
+    - '&1&lB &fBlue: <isAliveBlue>'
+    - ' '
+    - '&ewww.servermc.com'
+  Ashore-Enabled: true
+  Ashore-Title: '&e&l BED WARS'
+  Ashore:
+    Lines:
+    - '&7<day>/<month>/<year>'
+    - ' '
+    - '<nextEvent>:'
+    - '&a<time>'
+    - ' '
+    - '&c&lR &fRed: <isAliveRed>'
+    - '&1&lB &fBlue: <isAliveBlue>'
+    - '&a&lG &fGreen:&f <isAliveGreen>'
+    - ' '
+    - '&ewww.servermc.com'
+  mini1-Enabled: true
+  mini1-Title: '&e&l BED WARS'
+  mini1:
+    Lines:
+    - ' '
+    - '<nextEvent>:'
+    - '&a<time>'
+    - ' '
+    - '&c&lR &fRed: <isAliveRed>'
+    - '&1&lB &fBlue: <isAliveBlue>'
+    - '&a&lG &fGreen:&f <isAliveGreen>'
+    - ' '
+    - '&ewww.servermc.com'

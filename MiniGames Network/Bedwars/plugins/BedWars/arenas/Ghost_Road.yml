@@ -1,0 +1,212 @@
+name: Ghost_Road
+pauseCountdown: 60
+gameTime: 3600
+world: Ghost_Road
+pos1: 43.96019189064914;87.50946699382888;-41.210136524497926;-303.14844;19.799967
+pos2: -52.45885100516596;29.021483485763813;43.531678691580936;-138.14807;-15.750053
+specSpawn: 3.1892305509393184;80.38201558652142;-7.673451872168843;-176.09785;13.349953
+lobbySpawn: 0.41091455269423605;100.0;0.5552163457314709;90.30158;-4.500009
+lobbySpawnWorld: Ghost_Road
+minPlayers: 2
+postGameWaiting: 3
+teams:
+  ORANGE:
+    isNewColor: false
+    color: ORANGE
+    maxPlayers: 1
+    bed: 30.0;51.0;0.0;0.0;0.0
+    spawn: 30.469226289160304;50.0;0.5033876417365176;-267.89783;-1.950007
+  PINK:
+    isNewColor: false
+    color: PINK
+    maxPlayers: 1
+    bed: 0.0;50.0;-36.0;0.0;0.0
+    spawn: 0.515169331988867;50.0;-29.441468143261684;-358.6476;-1.6500043
+  RED:
+    isNewColor: false
+    color: RED
+    maxPlayers: 1
+    bed: -36.0;50.0;0.0;0.0;0.0
+    spawn: -29.41095051141428;50.0;0.5146231257580774;-86.09903;-7.3500195
+  BLUE:
+    isNewColor: false
+    color: BLUE
+    maxPlayers: 1
+    bed: 0.0;50.0;36.0;0.0;0.0
+    spawn: 0.5241645471859958;50.0;30.515546332436564;-178.8003;-5.1000056
+spawners:
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 30.463560171628316;50.0;-2.5564469414189284;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 30.463560171628316;50.0;-2.5564469414189284;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -2.4920778345012424;50.0;-29.29649483645082;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -2.4920778345012424;50.0;-29.29649483645082;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -29.386321862128664;50.0;3.533571519978723;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -29.386321862128664;50.0;3.533571519978723;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 3.5146966590363484;50.0;30.433564502742417;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 3.5146966590363484;50.0;30.433564502742417;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -5.5442819939742645;50.0;4.454137860059156;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: emerald
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 6.465304366147791;50.0;-2.5290612034820406;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: emerald
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -30.57771933598077;50.0;-34.502401809475316;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: diamond
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 35.54555434574553;50.0;32.52293814734108;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: diamond
+stores:
+- isBaby: 'false'
+  loc: 3.506012168640223;50.0;-28.69999998807907;-270.5966;1.5000274
+  parent: 'false'
+  shop: null
+  name: Tienda
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -2.548250571695288;50.0;29.5760789778116;-87.89844;-0.14991707
+  parent: 'false'
+  shop: null
+  name: Tienda
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: 31.30178517135601;50.0;4.626156252088396;-129.44727;0.15003832
+  parent: 'false'
+  shop: upgradeShop.yml
+  name: TeamUpgrades
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -3.4419434874580146;50.0;31.37389143382365;-89.09766;-1.7999327
+  parent: 'false'
+  shop: upgradeShop.yml
+  name: TeamUpgrades
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: 29.54260082234901;50.0;3.530622114630425;-179.54657;0.8999614
+  parent: 'false'
+  shop: null
+  name: Tienda
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -30.310192541610633;50.0;-3.5519835600522924;-355.64786;-1.2000365
+  parent: 'false'
+  shop: upgradeShop.yml
+  name: TeamUpgrades
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -28.501883446262255;50.0;-2.550425394142745;-359.84732;1.1999339
+  parent: 'false'
+  shop: null
+  name: Tienda
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: 4.565264441185668;50.0;-30.373613520790634;-265.7972;4.5000315
+  parent: 'false'
+  shop: upgradeShop.yml
+  name: TeamUpgrades
+  skin: null
+  type: VILLAGER
+constant:
+  compass-enabled: inherit
+  add-wool-to-inventory-on-join: inherit
+  in-lobby-colored-leather-by-team: inherit
+  allow-crafting: inherit
+  join-randomly-after-lobby-timeout: inherit
+  join-randomly-on-lobby-join: inherit
+  keep-inventory-on-death: inherit
+  prevent-killing-villagers: inherit
+  player-drops: inherit
+  friendlyfire: inherit
+  lobbybossbar: inherit
+  bossbar: inherit
+  lobbyscoreboard: inherit
+  scoreboard: inherit
+  prevent-spawning-mobs: inherit
+  spawner-holograms: inherit
+  spawner-disable-merge: inherit
+  game-start-items: inherit
+  player-respawn-items: inherit
+  spawner-holograms-countdown: inherit
+  damage-when-player-is-not-in-arena: inherit
+  remove-unused-target-blocks: inherit
+  allow-block-falling: inherit
+  holo-above-bed: inherit
+  allow-spectator-join: inherit
+  anchor-auto-fill: inherit
+  anchor-decreasing: inherit
+  cake-target-block-eating: inherit
+  target-block-explosions: inherit
+arenaTime: WORLD
+arenaWeather: default
+lobbyBossBarColor: default
+gameBossBarColor: default

@@ -1,0 +1,13 @@
+[INFO|2:07:35]: ACR > darkoster failed Flight (x8) | type: groundflight, ping: 15ms, tps: 19.99 
+[INFO|2:14:49]: ACR > darkoster failed Flight (x16) | type: airclimb, ping: 17ms, tps: 19.87 
+[INFO|2:18:21]: ACR > darkoster failed Strafe (x8) | ping: 16ms, tps: 20 
+[INFO|2:19:23]: ACR > darkoster failed BadPackets (x8) | ping: 23ms, tps: 19.5 
+[INFO|2:19:23]: ACR > darkoster failed BadPackets (x16) | ping: 23ms, tps: 19.5 
+[INFO|2:19:23]: ACR > darkoster failed MorePackets (x8) | ping: 349ms, tps: 19.5 
+[INFO|2:19:23]: ACR > darkoster failed MorePackets (x16) | ping: 349ms, tps: 19.5 
+[INFO|2:19:27]: ACR > darkoster failed BadPackets (x24) | ping: 1698ms, tps: 19.97 
+[INFO|2:19:27]: ACR > darkoster failed MorePackets (x24) | ping: 1698ms, tps: 19.97 
+[INFO|2:19:27]: ACR > darkoster failed BadPackets (x32) | ping: 1698ms, tps: 19.97 
+[INFO|2:19:27]: ACR > darkoster failed MorePackets (x32) | ping: 374ms, tps: 19.97 
+[INFO|2:19:37]: ACR > darkoster failed BadPackets (x40) | ping: 33ms, tps: 20 
+[INFO|2:19:37]: ACR > darkoster was kicked for cheating (BadPackets) 

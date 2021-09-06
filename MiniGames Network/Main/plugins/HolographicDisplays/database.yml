@@ -1,0 +1,16 @@
+'1':
+  location: survival, 1000640.497, 80.5, 10000316.5
+  lines:
+  - '&8&l- &7&lFAKE &8&l-'
+'2':
+  location: survival, 1000642.543, 80.5, 10000315.5
+  lines:
+  - '&8&l- &7&lCOMMON &8&l-'
+'3':
+  location: survival, 1000644.508, 80.5, 10000315.5
+  lines:
+  - '&8&l- &7&lUNCOMMON &8&l-'
+'4':
+  location: survival, 1000646.621, 80.5, 10000316.5
+  lines:
+  - '&8&l- &7&lMAGIC &8&l-'

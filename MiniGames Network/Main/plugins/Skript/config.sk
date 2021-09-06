@@ -1,0 +1,79 @@
+#==== General Options ====
+
+language: english
+
+check for new version: false
+
+update check interval: 0 hours
+
+automatically download new version: false
+
+update to pre-releases: false
+
+enable effect commands: false
+
+effect command token: !
+
+allow ops to use effect commands: false
+
+player variable fix: true
+
+use player UUIDs in variable names: false
+
+date format: default
+
+verbosity: normal
+
+plugin priority: high
+
+log player commands: false
+
+number accuracy: 2
+
+maximum target block distance: 100
+
+case sensitive: false
+
+disable variable conflict warnings: true
+
+disable variable will not be saved warnings: false
+
+soft api exceptions: false
+
+enable timings: false
+
+parse links in chat messages: disabled
+
+color codes reset formatting: true
+
+
+databases:
+
+		
+	MySQL:
+	
+		type: disabled# change to line below to enable this database
+		
+		pattern: synced_.*# this pattern will save all variables that start with 'synced_' in this MySQL database.
+		
+		host: localhost
+		port: 3306
+		user: root
+		password: tester
+		database: sk
+		
+		monitor changes: true
+		monitor interval: 20 seconds
+			
+	Local:
+		
+		type: CSV
+		
+		pattern: .*
+		
+		file: ./plugins/Skript/storage.yml
+		
+		backup interval: 2 hours
+				
+version: 2.2-dev27
+

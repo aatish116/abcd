@@ -1,0 +1,24 @@
+# You can rename the ranks or create new ones
+# 'Default' is the rank players start at, and it must have exp and Tokens-gift set to 0
+# ONLY rename ranks before players get it, or errors may happen.
+
+Default: Newbie
+Ranks:
+  Newbie:
+    Exp: 0
+    Tokens-Gift: 0
+  Starter:
+    Exp: 50
+    Tokens-Gift: 50
+  Survivor:
+    Exp: 250
+    Tokens-Gift: 100
+  Fighter:
+    Exp: 750
+    Tokens-Gift: 250
+  Immortal:
+    Exp: 1250
+    Tokens-Gift: 500
+  God:
+    Exp: 2000
+    Tokens-Gift: 1000

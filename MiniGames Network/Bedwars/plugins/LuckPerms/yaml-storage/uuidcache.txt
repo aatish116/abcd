@@ -1,0 +1,5 @@
+# LuckPerms UUID lookup cache
+0a1a720b-311f-3fd9-9d73-75a754fc81cf:ItzAnu_
+ece661d4-e806-336f-82a1-aad5cd5271dc:test12546522
+26af1bc8-8efd-3646-ac70-6d741559313d:Gamingmenia
+063ebf80-3d75-3cbd-965c-a52e46af1cd7:NoScopeFTW

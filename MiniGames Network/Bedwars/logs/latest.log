@@ -1,0 +1,438 @@
+[13:40:09] [main/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]
+[13:40:09] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:40:09] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[13:40:10] [Worker-Main-5/INFO]: Loaded 7 recipes
+[13:40:11] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[13:40:11] [Server thread/INFO]: Loading properties
+[13:40:11] [Server thread/INFO]: This server is running Paper version git-Paper-774 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[13:40:11] [Server thread/INFO]: Debug logging is disabled
+[13:40:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:40:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:40:11] [Server thread/INFO]: Default game type: SURVIVAL
+[13:40:11] [Server thread/INFO]: Generating keypair
+[13:40:11] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25567
+[13:40:11] [Server thread/INFO]: Using default channel type
+[13:40:13] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:40:17] [Server thread/WARN]: Legacy plugin Sudo v1 does not specify an api-version.
+[13:40:17] [Server thread/WARN]: Legacy plugin ServerListPlus v3.4.8 does not specify an api-version.
+[13:40:17] [Server thread/ERROR]: Could not load 'plugins\FastAsyncWorldEdit-Bukkit-1.16-730.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-774]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-774]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1069) ~[patched_1.16.5.jar:git-Paper-774]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-774]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+Caused by: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_301]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:199) ~[patched_1.16.5.jar:git-Paper-774]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-774]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_301]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-774]
+	... 7 more
+[13:40:17] [Server thread/ERROR]: Could not load 'plugins\SBAHypixelify-1.4.3-all.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: io/pronze/hypixelify/SBAHypixelify has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-774]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-774]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1069) ~[patched_1.16.5.jar:git-Paper-774]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-774]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+Caused by: java.lang.UnsupportedClassVersionError: io/pronze/hypixelify/SBAHypixelify has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_301]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:199) ~[patched_1.16.5.jar:git-Paper-774]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-774]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_301]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-774]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-774]
+	... 7 more
+[13:40:17] [Server thread/ERROR]: Could not load 'plugins\worldguard-bukkit-7.0.5-dist (1).jar' in folder 'plugins': circular dependency detected
+[13:40:17] [Server thread/INFO]: [Sudo] Loading Sudo v1
+[13:40:17] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.7.0
+[13:40:17] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[13:40:17] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[13:40:17] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[13:40:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[13:40:17] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[13:40:18] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[13:40:18] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[13:40:18] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[13:40:18] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[13:40:18] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[13:40:18] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.1
+[13:40:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:40:18] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[13:40:18] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[13:40:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:40:18] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[13:40:18] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[13:40:18] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[13:40:18] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[13:40:18] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[13:40:18] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[13:40:18] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[13:40:18] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.0
+[13:40:19] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.1
+[13:40:19] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.42
+[13:40:20] [Server thread/INFO]: [AntiCheatReloaded] Loading AntiCheatReloaded v1.9.8
+[13:40:20] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.6
+[13:40:20] [Server thread/INFO]: [ServerListPlus] Loading ServerListPlus v3.4.8
+[13:40:20] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[13:40:20] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[13:40:20] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[13:40:20] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.2.0
+[13:40:20] [Server thread/INFO]: [TAB] Loading TAB v2.9.2
+[13:40:20] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.28-SNAPSHOT (build 2328)
+[13:40:20] [Server thread/INFO]: [BedWars] Loading BedWars v0.2.18
+[13:40:20] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.6
+[13:40:20] [Server thread/INFO]: [ProCosmetics] Loading ProCosmetics v12.9.1
+[13:40:20] [Server thread/INFO]: [Negativity] Loading Negativity v1.10
+[13:40:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:40:20] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.7.0
+[13:40:20] [Server thread/INFO]: [VoidGenerator] v1_15
+[13:40:20] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.0
+[13:40:20] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[13:40:20] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.1
+[13:40:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.42
+[13:40:20] [Server thread/INFO]:         __    
+[13:40:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.42
+[13:40:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:40:20] [Server thread/INFO]: 
+[13:40:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:40:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
+[13:40:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:40:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:40:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1879ms)
+[13:40:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:40:22] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[13:40:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:40:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:40:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:40:22] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:40:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:40:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:40:22] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[13:40:22] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[13:40:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:40:22] [Server thread/INFO]: Preparing level "Lobby"
+[13:40:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:40:22] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:22] [Server thread/INFO]: Time elapsed: 262 ms
+[13:40:22] [Server thread/INFO]: [Sudo] Enabling Sudo v1*
+[13:40:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[13:40:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[13:40:22] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.1
+[13:40:22] [Server thread/INFO]: [AntiCheatReloaded] Enabling AntiCheatReloaded v1.9.8
+[13:40:22] [Server thread/INFO]: ACR > Running Minecraft version v1_16_R3 (supported)
+[13:40:22] [Server thread/INFO]: [AntiCheatReloaded] Enabling packet listeners
+[13:40:23] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.6
+[13:40:23] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[13:40:23] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8*
+[13:40:23] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:40:23] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:40:23] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:40:23] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[13:40:23] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[13:40:23] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[13:40:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[13:40:23] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[13:40:23] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[13:40:23] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[13:40:23] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[13:40:23] [Server thread/INFO]: Preparing start region for dimension minecraft:china4
+[13:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:23] [Server thread/INFO]: Time elapsed: 287 ms
+[13:40:23] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: test
+[13:40:23] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[13:40:23] [Server thread/INFO]: Preparing start region for dimension minecraft:boats
+[13:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:23] [Server thread/INFO]: Time elapsed: 49 ms
+[13:40:23] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Coloseum
+[13:40:23] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[13:40:23] [Server thread/ERROR]: [VoidGenerator] The BiomeID: "NORMAL" is invalid. The biome defaulted to "THE_VOID".
+[13:40:23] [Server thread/INFO]: Preparing start region for dimension minecraft:japan
+[13:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:23] [Server thread/INFO]: Time elapsed: 122 ms
+[13:40:23] [Server thread/ERROR]: [VoidGenerator] The BiomeID: "NORMAL" is invalid. The biome defaulted to "THE_VOID".
+[13:40:23] [Server thread/INFO]: Preparing start region for dimension minecraft:labyrinth
+[13:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 63 ms
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:boats3
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 22 ms
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:golden2
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 82 ms
+[13:40:24] [Server thread/ERROR]: [VoidGenerator] The BiomeID: "NORMAL" is invalid. The biome defaulted to "THE_VOID".
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:toys2
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 30 ms
+[13:40:24] [Server thread/ERROR]: [VoidGenerator] The BiomeID: "NORMAL" is invalid. The biome defaulted to "THE_VOID".
+[13:40:24] [Server thread/ERROR]: [VoidGenerator] The BiomeID: "NORMAL" is invalid. The biome defaulted to "THE_VOID".
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:toys
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 74 ms
+[13:40:24] [Server thread/ERROR]: [VoidGenerator] The BiomeID: "NORMAL" is invalid. The biome defaulted to "THE_VOID".
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:enderman
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 51 ms
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:enderman2
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 54 ms
+[13:40:24] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Boats2
+[13:40:24] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:labyrinth2
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 56 ms
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:coliseum
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 55 ms
+[13:40:24] [Server thread/ERROR]: [VoidGenerator] The BiomeID: "NORMAL" is invalid. The biome defaulted to "THE_VOID".
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:japan2
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 48 ms
+[13:40:24] [Server thread/ERROR]: [VoidGenerator] The BiomeID: "NORMAL" is invalid. The biome defaulted to "THE_VOID".
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:ghost_road
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 57 ms
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:golden
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:24] [Server thread/INFO]: Time elapsed: 17 ms
+[13:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:japan4
+[13:40:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:25] [Server thread/INFO]: Time elapsed: 23 ms
+[13:40:25] [Server thread/INFO]: [Multiverse-Core] 17 - World(s) loaded.
+[13:40:25] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[13:40:25] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
+[13:40:25] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
+[13:40:25] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
+[13:40:25] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
+[13:40:25] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
+[13:40:25] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
+[13:40:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.2.0
+[13:40:25] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:40:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:40:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:40:25] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
+[13:40:25] [Server thread/INFO]: [Essentials] Using locale en_IN
+[13:40:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:40:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:40:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:40:25] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[13:40:25] [Server thread/INFO]: [TAB] Enabling TAB v2.9.2
+[13:40:25] [Server thread/INFO]: [TAB] Server version: 1.16.5 (v1_16_R3)
+[13:40:25] [Server thread/INFO]: [TAB] File plugins\TAB\errors.log exists and is not empty. Take a look at the error messages and try to resolve them. After you do, delete the file.
+[13:40:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab
+[13:40:25] [Server thread/INFO]: [TAB] There was 1 startup warning.
+[13:40:25] [Server thread/INFO]: [TAB] Enabled in 108ms
+[13:40:25] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.28-SNAPSHOT (build 2328)
+[13:40:26] [Server thread/INFO]: [BedWars] Enabling BedWars v0.2.18
+[13:40:26] [Server thread/INFO]: [BedWars] Successfully loaded messages for BedWars! Language: English
+[13:40:26] [Server thread/INFO]: [BedWars] Loading statistics from YAML-File ...
+[13:40:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bedwars
+[13:40:26] [Server thread/INFO]: =====================  by ScreamingSandals <Misat11, Iamceph, Pronze>
+[13:40:26] [Server thread/INFO]: + Screaming BedWars +  Version: 0.2.18 FREE
+[13:40:26] [Server thread/INFO]: =====================  STABLE VERSION
+[13:40:26] [Server thread/INFO]: [BW] Found Vault
+[13:40:26] [Server thread/WARN]: [BedWars] Bedwars 0.3.0 will require at least Java 11. Your server is not prepared for it. Update your Java or contact your hosting. 
+[13:40:26] [Server thread/WARN]: [BedWars] https://docs.screamingsandals.org/Other/java11.html
+[13:40:26] [Server thread/INFO]: [BW] Arena Boats loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Boats3 loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena China loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Coliseum loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Enderman loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Enderman2 loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Ghost_Road loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Golden loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Golden2 loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Japan loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Japan2 loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Japan4 loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Labyrinth loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Labyrinth2 loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Toys loaded!
+[13:40:26] [Server thread/INFO]: [BW] Arena Toys2 loaded!
+[13:40:26] [Server thread/INFO]: Everything is loaded! If you like our work, consider visiting our Patreon! <3
+[13:40:26] [Server thread/INFO]: https://www.patreon.com/screamingsandals
+[13:40:26] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.6
+[13:40:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: supervanish
+[13:40:26] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[13:40:26] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[13:40:26] [Server thread/INFO]: [SuperVanish] Hooked into Citizens
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Enabling ProCosmetics v12.9.1
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing configs...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing menus...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing cosmetics...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing arrow effects...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing balloons...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing banners...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing death effects...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing emotes...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing gadgets...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing miniatures...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing morphs...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing mounts...
+[13:40:26] [Server thread/INFO]: [ProCosmetics] Initializing music...
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Initializing particle effects...
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Initializing pets...
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Initializing statuses...
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Initializing treasures...
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Hooking into PlaceholderAPI...
+[13:40:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: procosmetics
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Connecting to the database...
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Successfully connected to the database!
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Hooking into Essentials...
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Hooking into SuperVanish...
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Cracked by Haizivs#7206 <3
+[13:40:28] [Server thread/INFO]: [ProCosmetics] Initialized! Took 2160ms.
+[13:40:28] [Server thread/INFO]: [Negativity] Enabling Negativity v1.10
+[13:40:28] [Server thread/INFO]: [Negativity] Detected server version: v1_16 (v1_16_R3)
+[13:40:28] [Server thread/INFO]: [Negativity] The plugin ProtocolLib has been detected. Loading Protocollib support ...
+[13:40:28] [Server thread/INFO]: [Negativity] This plugin is free, but you can buy the premium version : https://www.spigotmc.org/resources/86874 <3
+[13:40:30] [Server thread/INFO]: [Negativity] Loaded support for Essentials, ViaVersion.
+[13:40:30] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:40:30] [Server thread/INFO]: Starting GS4 status listener
+[13:40:30] [Server thread/INFO]: Thread Query Listener started
+[13:40:30] [Query Listener #1/INFO]: Query running on 0.0.0.0:25567
+[13:40:30] [Server thread/INFO]: Running delayed init tasks
+[13:40:30] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[13:40:30] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 16 (your version is 1.8.0_301). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[13:40:30] [Server thread/INFO]: [Citizens] Loaded 4 NPCs.
+[13:40:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Animations
+[13:40:30] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.3.42 which is not a depend, softdepend or loadbefore of this plugin.
+[13:40:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms
+[13:40:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[13:40:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[13:40:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[13:40:30] [Server thread/INFO]: 5 placeholder hooks successfully registered!
+[13:40:30] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[13:40:30] [Server thread/INFO]: Done (19.701s)! For help, type "help"
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_301
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[13:40:30] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[13:40:30] [Server thread/INFO]: Timings Reset
+[13:40:30] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[13:40:31] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[13:40:31] [Craft Scheduler Thread - 4/INFO]: [BW] New RELEASE version 0.2.19 of BedWars is available!
+[13:40:31] [Craft Scheduler Thread - 4/INFO]: [BW] Download it from https://www.spigotmc.org/resources/63714/download?version=409926
+[13:43:00] [Craft Scheduler Thread - 14/INFO]: [VoidGenerator] VoidGenerator v.2.0 is available here: https://www.spigotmc.org/resources/25391/
+[13:44:15] [Server thread/INFO]: Stopping the server
+[13:44:15] [Server thread/INFO]: Stopping server
+[13:44:15] [Server thread/INFO]: [Negativity] Disabling Negativity v1.10
+[13:44:16] [Server thread/INFO]: [ProCosmetics] Disabling ProCosmetics v12.9.1
+[13:44:16] [Server thread/INFO]: [SuperVanish] Disabling SuperVanish v6.2.6
+[13:44:16] [Server thread/INFO]: [BedWars] Disabling BedWars v0.2.18
+[13:44:16] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: bedwars
+[13:44:16] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.28-SNAPSHOT (build 2328)
+[13:44:16] [Server thread/INFO]: [TAB] Disabling TAB v2.9.2
+[13:44:16] [Server thread/INFO]: [TAB] Disabled in 1ms
+[13:44:16] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.2.0
+[13:44:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[13:44:16] [Server thread/INFO]: [HolographicExtension] Disabling HolographicExtension v1.10.9
+[13:44:16] [Server thread/INFO]: [HolographicExtension] Disabling HolographicExtension v1.10.9
+[13:44:16] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[13:44:16] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:44:16] [Server thread/INFO]: [ServerListPlus] Disabling ServerListPlus v3.4.8
+[13:44:16] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 disabled.
+[13:44:16] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.6
+[13:44:16] [Server thread/INFO]: [AntiCheatReloaded] Disabling AntiCheatReloaded v1.9.8
+[13:44:16] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.42
+[13:44:16] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: luckperms
+[13:44:16] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:44:16] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:44:16] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:44:16] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.1
+[13:44:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.0
+[13:44:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.1
+[13:44:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
+[13:44:16] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[13:44:16] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.9
+[13:44:16] [Server thread/INFO]: [VoidGenerator] Disabling VoidGenerator v1.7.0
+[13:44:16] [Server thread/INFO]: [Sudo] Disabling Sudo v1
+[13:44:16] [Server thread/INFO]: Saving players
+[13:44:16] [Server thread/INFO]: Saving worlds
+[13:44:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Lobby]'/minecraft:overworld
+[13:44:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (Lobby): All chunks are saved
+[13:44:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[China4]'/minecraft:china4
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (China4): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Boats]'/minecraft:boats
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Boats): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Japan]'/minecraft:japan
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Japan): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Labyrinth]'/minecraft:labyrinth
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Labyrinth): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Boats3]'/minecraft:boats3
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Boats3): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Golden2]'/minecraft:golden2
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Golden2): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Toys2]'/minecraft:toys2
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Toys2): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Toys]'/minecraft:toys
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Toys): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Enderman]'/minecraft:enderman
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Enderman): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Enderman2]'/minecraft:enderman2
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Enderman2): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Labyrinth2]'/minecraft:labyrinth2
+[13:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Labyrinth2): All chunks are saved
+[13:44:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Coliseum]'/minecraft:coliseum
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Coliseum): All chunks are saved
+[13:44:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Japan2]'/minecraft:japan2
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Japan2): All chunks are saved
+[13:44:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Ghost_Road]'/minecraft:ghost_road
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Ghost_Road): All chunks are saved
+[13:44:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Golden]'/minecraft:golden
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Golden): All chunks are saved
+[13:44:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Japan4]'/minecraft:japan4
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Japan4): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Lobby): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (China4): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Boats): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Japan): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Labyrinth): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Boats3): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Golden2): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Toys2): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Toys): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Enderman): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Enderman2): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Labyrinth2): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Coliseum): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Japan2): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Ghost_Road): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Golden): All chunks are saved
+[13:44:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Japan4): All chunks are saved
+[13:44:18] [Server thread/INFO]: Saving usercache.json
+[13:44:18] [Server thread/INFO]: Flushing Chunk IO
+[13:44:18] [Server thread/INFO]: Closing Thread Pool
+[13:44:18] [Server thread/INFO]: Closing Server

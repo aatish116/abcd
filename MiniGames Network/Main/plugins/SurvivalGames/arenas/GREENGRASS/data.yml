@@ -1,0 +1,182 @@
+enabled: true
+world: 'GREENGRASS'
+minPlayers: 2
+maxPlayers: 24
+lobby-time: 30
+grace-time: 0
+deathmatch-grace-time: 20
+game-time: 1200
+warn-every-seconds: 60
+time-till-deathmatch-start-after-announce: 30
+deathmatch-time: 120
+chests-refill-at: 600
+minimum-chest-items: 4
+max-chest-items: 7
+minimum-chest-tier2-items: 4
+max-chest-tier2-items: 7
+playerstilldeathmatch: 3
+spawnpoints:
+  '1':
+    x: -10
+    y: 66
+    z: -21
+    yaw: -34.64308
+    pitch: 0.34843373
+  '2':
+    x: -14
+    y: 66
+    z: -18
+    yaw: -46.493088
+    pitch: 13.098437
+  '3':
+    x: -17
+    y: 66
+    z: -14
+    yaw: -61.493095
+    pitch: 9.19844
+  '4':
+    x: -19
+    y: 66
+    z: -9
+    yaw: -88.0431
+    pitch: 11.59844
+  '5':
+    x: -20
+    y: 66
+    z: -4
+    yaw: -91.64311
+    pitch: 9.798443
+  '6':
+    x: -19
+    y: 66
+    z: 1
+    yaw: -91.64311
+    pitch: 9.648443
+  '7':
+    x: -17
+    y: 66
+    z: 6
+    yaw: -97.793106
+    pitch: 10.548443
+  '8':
+    x: -14
+    y: 66
+    z: 10
+    yaw: -129.29312
+    pitch: 13.998442
+  '9':
+    x: -10
+    y: 66
+    z: 13
+    yaw: -143.54308
+    pitch: 15.048441
+  '10':
+    x: -5
+    y: 66
+    z: 15
+    yaw: -180.8931
+    pitch: 16.84844
+  '11':
+    x: 0
+    y: 66
+    z: 16
+    yaw: -186.74307
+    pitch: 8.148442
+  '12':
+    x: 5
+    y: 66
+    z: 15
+    yaw: -186.44307
+    pitch: 9.198442
+  '13':
+    x: 10
+    y: 66
+    z: 13
+    yaw: -186.59306
+    pitch: 11.148441
+  '14':
+    x: 14
+    y: 66
+    z: 10
+    yaw: -186.59306
+    pitch: 11.148441
+  '15':
+    x: 17
+    y: 66
+    z: 6
+    yaw: -233.84315
+    pitch: 6.9484444
+  '16':
+    x: 19
+    y: 66
+    z: 1
+    yaw: -235.34315
+    pitch: 9.498445
+  '17':
+    x: 20
+    y: 66
+    z: -4
+    yaw: -272.54318
+    pitch: 9.348442
+  '18':
+    x: 19
+    y: 66
+    z: -9
+    yaw: -272.3932
+    pitch: 9.348442
+  '19':
+    x: 17
+    y: 66
+    z: -14
+    yaw: -272.3932
+    pitch: 9.348442
+  '20':
+    x: 14
+    y: 66
+    z: -18
+    yaw: -307.04318
+    pitch: 6.498442
+  '21':
+    x: 10
+    y: 66
+    z: -21
+    yaw: -311.54324
+    pitch: 13.098442
+  '22':
+    x: 5
+    y: 66
+    z: -23
+    yaw: -357.29324
+    pitch: 10.548441
+  '23':
+    x: 0
+    y: 66
+    z: -24
+    yaw: -5.2431946
+    pitch: 9.798441
+  '24':
+    x: -5
+    y: 66
+    z: -23
+    yaw: -19.793152
+    pitch: 10.548439
+deathmatch:
+  spawnpoints:
+    '1':
+      x: 0
+      y: 66
+      z: -24
+      yaw: -358.49307
+      pitch: 13.548436
+    '2':
+      x: -20
+      y: 66
+      z: -4
+      yaw: -92.392975
+      pitch: 11.598442
+    '3':
+      x: 0
+      y: 66
+      z: 16
+      yaw: -183.893
+      pitch: 9.0484495

@@ -1,0 +1,19 @@
+lastAccountName: test12546522
+timestamps:
+  login: 1630208208689
+  logout: 1630208268975
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: Lobby
+  x: 36.25274506462575
+  y: 75.0
+  z: 18.928554919460286
+  yaw: -63.353394
+  pitch: 33.449383
+lastlocation:
+  world: Lobby
+  x: 33.88694424553968
+  y: 75.0
+  z: 16.071069094623244
+  yaw: 92.99935
+  pitch: 22.050041

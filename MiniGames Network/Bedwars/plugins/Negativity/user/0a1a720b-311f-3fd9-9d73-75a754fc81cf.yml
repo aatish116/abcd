@@ -1,0 +1,18 @@
+playername: ItzAnu_
+lang: en_US
+minerate-full-mined: 255
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 7
+cheats:
+  inventorymove: 2
+  fastladder: 1
+  fly: 6
+  chat: 3
+  nofall: 25
+  faststairs: 1
+creation-time: 1630129767397

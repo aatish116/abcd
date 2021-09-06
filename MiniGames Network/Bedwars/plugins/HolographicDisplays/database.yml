@@ -1,0 +1,20 @@
+bwsolo:
+  location: Lobby, 53.500, 78.500, 11.500
+  lines:
+  - '&BSolo &7[v1.0]'
+  - '&e&lCLICK TO PLAY'
+bwdoubles:
+  location: Lobby, 55.500, 78.500, 15.500
+  lines:
+  - '&bDoubles &7[v1.0]'
+  - '&e&lCLICK TO PLAY'
+bw3v3v3v3:
+  location: Lobby, 56.500, 78.500, 20.500
+  lines:
+  - '&b3v3v3v3 &7[v1.0]'
+  - '&e&lCLICK TO PLAY'
+bw4v4v4v4:
+  location: Lobby, 55.500, 78.500, 25.500
+  lines:
+  - '&B4v4v4v4 &7[v1.0]'
+  - '&e&lCLICK TO PLAY'

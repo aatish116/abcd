@@ -1,0 +1,800 @@
+PurchaseMessage: '&aYou have purchased <item>.'
+Unlocked: '&aUNLOCKED'
+NotEnoughResourcesMessage: '&cYou do not have enough resources.'
+EnoughResources: '&eClick to purchase.'
+NotEnoughResources: '&cYou do not have enough resources.'
+AlreadyPurchased: '&cYou have already purchased this.'
+GoBack:
+  Name: '&aGo Back'
+  Lore:
+  - ''
+ItemShop:
+  InventoryName:
+    Blocks: '&7Blocks'
+    Armor: '&7Armor'
+    Melee: '&7Melee'
+    Ranged: '&7Ranged'
+    Utility: '&7Utility'
+    Potions: '&7Potions'
+    Tools: '&7Tools'
+    MainMenu: '&7Item Shop'
+  MainMenu:
+    ArmorName: '&aArmor'
+    ArmorLore:
+    - '&fAvailable'
+    - "&7 \xe2\u2014\u2039 Chainmail Boots"
+    - "&7 \xe2\u2014\u2039 Chainmail Leggings"
+    - "&7 \xe2\u2014\u2039 Iron Boots"
+    - "&7 \xe2\u2014\u2039 Iron Leggings"
+    - "&7 \xe2\u2014\u2039 Diamond Boots"
+    - "&7 \xe2\u2014\u2039 Diamond Leggings"
+    - ' '
+    - '&eClick to browse!'
+    MeleeName: '&aMelee'
+    MeleeLore:
+    - '&fAvailable'
+    - "&7 \xe2\u2014\u2039 Stone Sword"
+    - "&7 \xe2\u2014\u2039 Iron Sword"
+    - "&7 \xe2\u2014\u2039 Diamond Sword"
+    - "&7 \xe2\u2014\u2039 Stick &f(Knockback I)"
+    - ' '
+    - '&eClick to browse!'
+    BlocksName: '&aBlocks'
+    BlocksLore:
+    - '&fAvailable'
+    - "&7 \xe2\u2014\u2039 Wool"
+    - "&7 \xe2\u2014\u2039 Sandstone"
+    - "&7 \xe2\u2014\u2039 End Stone"
+    - "&7 \xe2\u2014\u2039 Ladder"
+    - "&7 \xe2\u2014\u2039 Oak Wood Planks"
+    - "&7 \xe2\u2014\u2039 Obsidian"
+    - ' '
+    - '&eClick to browse!'
+    RangedName: '&aRanged'
+    RangedLore:
+    - '&fAvailable'
+    - "&7 \xe2\u2014\u2039 Arrow"
+    - "&7 \xe2\u2014\u2039 Bow"
+    - "&7 \xe2\u2014\u2039 Bow &f(Power I)"
+    - "&7 \xe2\u2014\u2039 Bow &f(Power I,Punch I)"
+    - ' '
+    - '&eClick to browse!'
+    ToolsName: '&aTools'
+    ToolsLore:
+    - '&fAvailable'
+    - "&7 \xe2\u2014\u2039 Shears "
+    - "&7 \xe2\u2014\u2039 Wooden Pickaxe"
+    - "&7 \xe2\u2014\u2039 Stone Pickaxe &f(Efficiency I)"
+    - "&7 \xe2\u2014\u2039 Iron Pickaxe &f(Efficiency II)"
+    - "&7 \xe2\u2014\u2039 Diamond Pickaxe &f(Efficiency III)"
+    - "&7 \xe2\u2014\u2039 Diamond Axe &f(Efficiency II)"
+    - ' '
+    - '&eClick to browse!'
+    PotionsName: '&aPotions'
+    PotionsLore:
+    - '&fAvailable'
+    - "&7 \xe2\u2014\u2039 Speed II Potion (45 seconds)"
+    - "&7 \xe2\u2014\u2039 Jump V Potion (45 seconds)"
+    - "&7 \xe2\u2014\u2039 Invisibility Potion (30 seconds)"
+    - ' '
+    - '&eClick to browse!'
+    UtilityName: '&aUtility'
+    UtilityLore:
+    - '&fAvailable'
+    - "&7 \xe2\u2014\u2039 Golden Apple"
+    - "&7 \xe2\u2014\u2039 Icefish"
+    - "&7 \xe2\u2014\u2039 Iron Golem Egg"
+    - "&7 \xe2\u2014\u2039 Fireball"
+    - "&7 \xe2\u2014\u2039 TNT"
+    - "&7 \xe2\u2014\u2039 Ender Pearl"
+    - "&7 \xe2\u2014\u2039 Water Bucket"
+    - ' '
+    - '&eClick to browse!'
+    Armor:
+      Name: '&aArmor'
+      Lore:
+      - '&fAvailable'
+      - "&7 \xe2\u2014\u2039 Chainmail Boots"
+      - "&7 \xe2\u2014\u2039 Chainmail Leggings"
+      - "&7 \xe2\u2014\u2039 Iron Boots"
+      - "&7 \xe2\u2014\u2039 Iron Leggings"
+      - "&7 \xe2\u2014\u2039 Diamond Boots"
+      - "&7 \xe2\u2014\u2039 Diamond Leggings"
+      - ' '
+      - '&eClick to browse!'
+    Melee:
+      Name: '&aMelee'
+      Lore:
+      - '&fAvailable'
+      - "&7 \xe2\u2014\u2039 Stone Sword"
+      - "&7 \xe2\u2014\u2039 Iron Sword"
+      - "&7 \xe2\u2014\u2039 Diamond Sword"
+      - "&7 \xe2\u2014\u2039 Stick &f(Knockback I)"
+      - ' '
+      - '&eClick to browse!'
+    Blocks:
+      Name: '&aBlocks'
+      Lore:
+      - '&fAvailable'
+      - "&7 \xe2\u2014\u2039 Wool"
+      - "&7 \xe2\u2014\u2039 Sandstone"
+      - "&7 \xe2\u2014\u2039 End Stone"
+      - "&7 \xe2\u2014\u2039 Ladder"
+      - "&7 \xe2\u2014\u2039 Oak Wood Planks"
+      - "&7 \xe2\u2014\u2039 Obsidian"
+      - ' '
+      - '&eClick to browse!'
+    Ranged:
+      Name: '&aRanged'
+      Lore:
+      - '&fAvailable'
+      - "&7 \xe2\u2014\u2039 Arrow"
+      - "&7 \xe2\u2014\u2039 Bow"
+      - "&7 \xe2\u2014\u2039 Bow &f(Power I)"
+      - "&7 \xe2\u2014\u2039 Bow &f(Power I,Punch I)"
+      - ' '
+      - '&eClick to browse!'
+    Tools:
+      Name: '&aTools'
+      Lore:
+      - '&fAvailable'
+      - "&7 \xe2\u2014\u2039 Shears "
+      - "&7 \xe2\u2014\u2039 Wooden Pickaxe"
+      - "&7 \xe2\u2014\u2039 Stone Pickaxe &f(Efficiency I)"
+      - "&7 \xe2\u2014\u2039 Iron Pickaxe &f(Efficiency II)"
+      - "&7 \xe2\u2014\u2039 Diamond Pickaxe &f(Efficiency III)"
+      - "&7 \xe2\u2014\u2039 Diamond Axe &f(Efficiency II)"
+      - ' '
+      - '&eClick to browse!'
+    Utility:
+      Name: '&aUtility'
+      Lore:
+      - '&fAvailable'
+      - "&7 \xe2\u2014\u2039 Golden Apple"
+      - "&7 \xe2\u2014\u2039 Icefish"
+      - "&7 \xe2\u2014\u2039 Iron Golem Egg"
+      - "&7 \xe2\u2014\u2039 Fireball"
+      - "&7 \xe2\u2014\u2039 TNT"
+      - "&7 \xe2\u2014\u2039 Ender Pearl"
+      - "&7 \xe2\u2014\u2039 Water Bucket"
+      - ' '
+      - '&eClick to browse!'
+    Potions:
+      Name: '&aPotions'
+      Lore:
+      - '&fAvailable'
+      - "&7 \xe2\u2014\u2039 Speed II Potion (45 seconds)"
+      - "&7 \xe2\u2014\u2039 Jump V Potion (45 seconds)"
+      - "&7 \xe2\u2014\u2039 Invisibility Potion (30 seconds)"
+      - ' '
+      - '&eClick to browse!'
+  ChainArmorName: '&cPermanent Chainmail Armor'
+  ChainArmorLore:
+  - '&7Items: '
+  - "&7 \xe2\u2014\u2039 Chainmail Boots x1"
+  - "&7 \xe2\u2014\u2039 Chainmail Leggings x1"
+  - ' '
+  - '&7Cost: &f40 Iron'
+  - ' '
+  - '&7&oYou will not lose this on death!'
+  - ' '
+  - <hasEnoughResources>
+  IronArmorName: '&cPermanent Iron Armor'
+  IronArmorLore:
+  - '&7Items: '
+  - "&7 \xe2\u2014\u2039 Iron Boots x1"
+  - "&7 \xe2\u2014\u2039 Iron Leggings x1"
+  - ' '
+  - '&7Cost: &612 Gold'
+  - ' '
+  - '&7&oYou will not lose this on death!'
+  - ' '
+  - <hasEnoughResources>
+  DiamondArmorName: '&cPermanent Diamond Armor'
+  DiamondArmorLore:
+  - '&7Items: '
+  - "&7 \xe2\u2014\u2039 Diamond Boots x1"
+  - "&7 \xe2\u2014\u2039 Diamond Leggings x1"
+  - ' '
+  - '&7Cost: &26 Emerald'
+  - ' '
+  - '&7&oYou will not lose this on death!'
+  - ' '
+  - <hasEnoughResources>
+  WoolName: '&cWool'
+  WoolLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Wool x16"
+  - ' '
+  - '&7Cost: &f4 Iron'
+  - ' '
+  - <hasEnoughResources>
+  SandstoneName: '&cStandstone'
+  SandstoneLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Sandstone x16"
+  - ' '
+  - '&7Cost: &f12 Iron'
+  - ' '
+  - <hasEnoughResources>
+  EndStoneName: '&cEnd Stone'
+  EndStoneLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 End Stone x12"
+  - ' '
+  - '&7Cost: &f24 Iron'
+  - ' '
+  - <hasEnoughResources>
+  LadderName: '&cLadder'
+  LadderLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Ladder x16"
+  - ' '
+  - '&7Cost: &f4 Iron'
+  - ' '
+  - <hasEnoughResources>
+  OakWoodName: '&cOak Wood Planks'
+  OakWoodLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Oak Wood Planks x16"
+  - ' '
+  - '&7Cost: &64 Gold'
+  - ' '
+  - <hasEnoughResources>
+  ObsidianName: '&cObsidian'
+  ObsidianLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Obsidian x4"
+  - ' '
+  - '&7Cost: &24 Emerald'
+  - ' '
+  - <hasEnoughResources>
+  ArrowName: '&cArrow'
+  ArrowLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Arrow x8"
+  - ' '
+  - '&7Cost: &62 Gold'
+  - ' '
+  - <hasEnoughResources>
+  BowName: '&cBow'
+  BowLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Bow x1"
+  - ' '
+  - '&7Cost: &612 Gold'
+  - ' '
+  - <hasEnoughResources>
+  BowPowerOneName: '&cBow (Power I)'
+  BowPowerOneLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Bow (Power I) x1"
+  - ' '
+  - '&7Cost: &624 Gold'
+  - ' '
+  - <hasEnoughResources>
+  BowPowerOnePunchOneName: '&cBow (Power I,Punch I)'
+  BowPowerOnePunchOneLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Bow (Power I,Punch I) x1"
+  - ' '
+  - '&7Cost: &26 Emerald'
+  - ' '
+  - <hasEnoughResources>
+  ShearsName: '&cPermanent Shears'
+  ShearsLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Shears x1"
+  - ' '
+  - '&7Cost: &f30 Iron'
+  - ' '
+  - '&7&oYou will not lose this on death!'
+  - ' '
+  - <hasEnoughResources>
+  WoodPickaxeName: '&cWooden Pickaxe'
+  WoodPickaxeLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Wooden Pickaxe x1"
+  - ' '
+  - '&7Cost: &f10 Iron'
+  - ' '
+  - <hasEnoughResources>
+  StonePickaxeName: '&cStone Pickaxe (Efficiency I)'
+  StonePickaxeLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Stone Pickaxe (Efficiency I) x1"
+  - ' '
+  - '&7Cost: &f20 Iron'
+  - ' '
+  - <hasEnoughResources>
+  IronPickaxeName: '&cStone Pickaxe (Efficiency II)'
+  IronPickaxeLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Iron Pickaxe (Efficiency II) x1"
+  - ' '
+  - '&7Cost: &68 Gold'
+  - ' '
+  - <hasEnoughResources>
+  DiamondPickaxeName: '&cStone Pickaxe (Efficiency III)'
+  DiamondPickaxeLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Diamond Pickaxe (Efficiency III) x1"
+  - ' '
+  - '&7Cost: &612 Gold'
+  - ' '
+  - <hasEnoughResources>
+  DiamondAxeName: '&cStone Pickaxe (Efficiency II)'
+  DiamondAxeLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Diamond Axe (Efficiency II) x1"
+  - ' '
+  - '&7Cost: &612 Gold'
+  - ' '
+  - <hasEnoughResources>
+  SpeedTwoName: '&cSpeed II Potion (45 seconds)'
+  SpeedTwoLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Speed II Potion (45 seconds) x1"
+  - ' '
+  - '&7Cost: &21 Emerald'
+  - ' '
+  - <hasEnoughResources>
+  JumpFiveName: '&cJump V Potion (45 seconds)'
+  JumpFiveLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Jump V Potion (45 seconds) x1"
+  - ' '
+  - '&7Cost: &21 Emerald'
+  - ' '
+  - <hasEnoughResources>
+  InvisibilityName: '&cInvisibility Potion (30 seconds)'
+  InvisibilityLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Invisibility Potion (30 seconds) x1"
+  - ' '
+  - '&7Cost: &21 Emerald'
+  - ' '
+  - <hasEnoughResources>
+  GoldenAppleName: '&cGolden Apple'
+  GoldenAppleLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Golden Apple x1"
+  - ' '
+  - '&7Cost: &63 Gold'
+  - ' '
+  - <hasEnoughResources>
+  SnowBallName: '&cIcefish'
+  SnowBallLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Icefish x1"
+  - ' '
+  - '&7Cost: &f50 Iron'
+  - ' '
+  - <hasEnoughResources>
+  IronEggName: '&cIron Golem Egg'
+  IronEggLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Iron Golem EGG x1"
+  - ' '
+  - '&7Cost: &f150 Iron'
+  - ' '
+  - <hasEnoughResources>
+  FireballName: '&cFireball'
+  FireballLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Fireball x1"
+  - ' '
+  - '&7Cost: &f50 Iron'
+  - ' '
+  - <hasEnoughResources>
+  TNTName: '&cTNT'
+  TNTLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 TNT x1"
+  - ' '
+  - '&7Cost: &65 Gold'
+  - ' '
+  - <hasEnoughResources>
+  EnderpearlName: '&cEnder Pearl'
+  EnderpearlLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Ender Pearl x1"
+  - ' '
+  - '&7Cost: &24 Emerald'
+  - ' '
+  - <hasEnoughResources>
+  WaterBucketName: '&cWater Bucket'
+  WaterBucketLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Water Bucket x1"
+  - ' '
+  - '&7Cost: &21 Emerald'
+  - ' '
+  - <hasEnoughResources>
+  StoneSwordName: '&cStone Sword'
+  StoneSwordLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Stone Sword "
+  - ' '
+  - '&7Cost: &f10 Iron'
+  - ' '
+  - <hasEnoughResources>
+  IronSwordName: '&cIron Sword'
+  IronSwordLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Stick (Knockback I)"
+  - ' '
+  - '&7Cost: &610 Gold'
+  - ' '
+  - <hasEnoughResources>
+  DiamondSwordName: '&cDiamond Sword'
+  DiamondSwordLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Diamond Sword"
+  - ' '
+  - '&7Cost: &24 Emerald'
+  - ' '
+  - <hasEnoughResources>
+  StickName: '&cStick (Knockback I)'
+  StickLore:
+  - '&7Items:'
+  - "&7 \xe2\u2014\u2039 Stick (Knockback I)"
+  - ' '
+  - '&7Cost: &610 Gold'
+  - ' '
+  - <hasEnoughResources>
+  ChainArmor:
+    Name: '&cPermanent Chainmail Armor'
+    Lore:
+    - '&7Items: '
+    - "&7 \xe2\u2014\u2039 Chainmail Boots x1"
+    - "&7 \xe2\u2014\u2039 Chainmail Leggings x1"
+    - ' '
+    - '&7Cost: &f40 Iron'
+    - ' '
+    - '&7&oYou will not lose this on death!'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 40
+  IronArmor:
+    Name: '&cPermanent Iron Armor'
+    Lore:
+    - '&7Items: '
+    - "&7 \xe2\u2014\u2039 Iron Boots x1"
+    - "&7 \xe2\u2014\u2039 Iron Leggings x1"
+    - ' '
+    - '&7Cost: &612 Gold'
+    - ' '
+    - '&7&oYou will not lose this on death!'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 12
+  DiamondArmor:
+    Name: '&cPermanent Diamond Armor'
+    Lore:
+    - '&7Items: '
+    - "&7 \xe2\u2014\u2039 Diamond Boots x1"
+    - "&7 \xe2\u2014\u2039 Diamond Leggings x1"
+    - ' '
+    - '&7Cost: &26 Emerald'
+    - ' '
+    - '&7&oYou will not lose this on death!'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 6
+  Wool:
+    Name: '&cWool'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Wool x16"
+    - ' '
+    - '&7Cost: &f4 Iron'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 4
+  Sandstone:
+    Name: '&cStandstone'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Sandstone x16"
+    - ' '
+    - '&7Cost: &f12 Iron'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 16
+  EndStone:
+    Name: '&cEnd Stone'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 End Stone x12"
+    - ' '
+    - '&7Cost: &f24 Iron'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 24
+  OakWood:
+    Name: '&cOak Wood Planks'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Oak Wood Planks x16"
+    - ' '
+    - '&7Cost: &64 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 4
+  Obsidian:
+    Name: '&cObsidian'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Obsidian x4"
+    - ' '
+    - '&7Cost: &24 Emerald'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 4
+  Ladders:
+    Name: '&cLadder'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Ladder x16"
+    - ' '
+    - '&7Cost: &f4 Iron'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 16
+  Arrow:
+    Name: '&cArrow'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Arrow x8"
+    - ' '
+    - '&7Cost: &62 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 2
+  Bow:
+    Name: '&cBow'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Bow x1"
+    - ' '
+    - '&7Cost: &612 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 12
+  BowPowerOne:
+    Name: '&cBow (Power I)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Bow (Power I) x1"
+    - ' '
+    - '&7Cost: &624 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 24
+  BowPowerOnePunchOne:
+    Price-Material: EMERALD
+    Price: 6
+  WoodenPickaxe:
+    Name: '&cWooden Pickaxe'
+    Price-Material: IRON_INGOT
+    Price: 10
+  WoodPickaxe:
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Wooden Pickaxe x1"
+    - ' '
+    - '&7Cost: &f10 Iron'
+    - ' '
+    - <hasEnoughResources>
+  Shears:
+    Name: '&cPermanent Shears'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Shears x1"
+    - ' '
+    - '&7Cost: &f30 Iron'
+    - ' '
+    - '&7&oYou will not lose this on death!'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 30
+  StonePickaxe:
+    Name: '&cStone Pickaxe (Efficiency I)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Stone Pickaxe (Efficiency I) x1"
+    - ' '
+    - '&7Cost: &f20 Iron'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 20
+  IronPickaxe:
+    Name: '&cIron Pickaxe (Efficiency II)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Iron Pickaxe (Efficiency II) x1"
+    - ' '
+    - '&7Cost: &68 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 8
+  DiamondPickaxe:
+    Name: '&cDiamond Pickaxe (Efficiency II)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Diamond Pickaxe (Efficiency II) x1"
+    - ' '
+    - '&7Cost: &612 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 12
+  DiamondAxe:
+    Name: '&cDiamond Axe (Efficiency II)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Diamond Axe (Efficiency II) x1"
+    - ' '
+    - '&7Cost: &612 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 12
+  SpeedTwo:
+    Name: '&cSpeed II Potion (45 seconds)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Speed II Potion (45 seconds) x1"
+    - ' '
+    - '&7Cost: &21 Emerald'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 1
+  JumpFive:
+    Name: '&cJump V Potion (45 seconds)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Jump V Potion (45 seconds) x1"
+    - ' '
+    - '&7Cost: &21 Emerald'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 1
+  Invisibility:
+    Name: '&cInvisibility Potion (30 seconds)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Invisibility Potion (30 seconds) x1"
+    - ' '
+    - '&7Cost: &21 Emerald'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 1
+  GoldenApple:
+    Name: '&cGolden Apple'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Golden Apple x1"
+    - ' '
+    - '&7Cost: &63 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 3
+  IronEgg:
+    Name: '&cIron Golem Egg'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Iron Golem EGG x1"
+    - ' '
+    - '&7Cost: &f150 Iron'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 150
+  Enderpearl:
+    Name: '&cEnder Pearl'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Ender Pearl x1"
+    - ' '
+    - '&7Cost: &24 Emerald'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 4
+  WaterBucket:
+    Name: '&cWater Bucket'
+    Price-Material: EMERALD
+    Price: 1
+  Fireball:
+    Name: '&cFireball'
+    Price-Material: IRON_INGOT
+    Price: 50
+  TNT:
+    Name: '&cTNT'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 TNT x1"
+    - ' '
+    - '&7Cost: &65 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 5
+  SnowBall:
+    Name: '&cIcefish'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Icefish x1"
+    - ' '
+    - '&7Cost: &f50 Iron'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 50
+  StoneSword:
+    Name: '&cStone Sword'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Stone Sword "
+    - ' '
+    - '&7Cost: &f10 Iron'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 10
+  IronSword:
+    Name: '&cIron Sword'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Iron Sword"
+    - ' '
+    - '&7Cost: &67 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 7
+  DiamondSword:
+    Name: '&cDiamond Sword'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Diamond Sword"
+    - ' '
+    - '&7Cost: &24 Emerald'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 7
+  Stick:
+    Name: '&cStick (Knockback I)'
+    Lore:
+    - '&7Items:'
+    - "&7 \xe2\u2014\u2039 Stick (Knockback I)"
+    - ' '
+    - '&7Cost: &610 Gold'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 10
+Purchase: '&aYou have purchased <item>.'
+UnlockedDisplay: '&aUNLOCKED'

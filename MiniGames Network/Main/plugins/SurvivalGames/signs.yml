@@ -1,0 +1,47 @@
+# Color codes are supported for the signs customization!
+Signs-Format:
+  Prefix: '&8&l[&6&lMCSG&8&l]'
+  Stats:
+    Line-2: '&bStats'
+  Auto-Join:
+    Line-2: '&8&l[&c&lPLAY&8&l]'
+  Join:
+    Line-2-Color: '&0'
+    Line-4-Color: '&0'
+Signs:
+  Join:
+    SG4:
+      world: world
+      x: 37.0
+      y: 45.0
+      z: 3.0
+    SG2017:
+      world: world
+      x: 37.0
+      y: 45.0
+      z: 2.0
+    Par72:
+      world: world
+      x: 37.0
+      y: 45.0
+      z: 1.0
+    CHERNOBYL:
+      world: world
+      x: 37.0
+      y: 45.0
+      z: 0.0
+    ZONE85:
+      world: world
+      x: 37.0
+      y: 45.0
+      z: -1.0
+    Valleyside:
+      world: world
+      x: 37.0
+      y: 45.0
+      z: -2.0
+    GreenGrass:
+      world: world
+      x: 37.0
+      y: 45.0
+      z: -3.0

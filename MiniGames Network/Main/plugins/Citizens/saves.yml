@@ -1,0 +1,33 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 3
+npc:
+  '1':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MTc1MTkzNDg1MzYsInByb2ZpbGVJZCI6ImY4ZmZhYjkxNDU5ODQxYWQ5YTE2MDg0ZTEwNzVmYmM4IiwicHJvZmlsZU5hbWUiOiJIaW5hdGFZVCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGEwYmFjM2NmODFmNGY3MWVkM2I4M2VhNjE1NTI2M2QzZjFhYmU2NGQ3NGE5MDNmYTk2ZGJlMmRkNWNmOTIifX19
+      cached-skin-uuid-name: hinatayt
+      cached-skin-uuid: f8ffab91-4598-41ad-9a16-084e1075fbc8
+      player-skin-name: hinatayt
+      player-skin-signature: E6336sYEMd1idnpGx3lK1RCDQZGvmvhaM+6n1m5SaG9qalDlxrFsMx/XxrhWVZ8t17x4xCmIWaMMHQ6TQeVwJ5nynv1rylKT9wYH/WEkzad12VAGJw7vxndsdGK3Wpx+bnBhWzWL4LMGM6MOkhfVF1r9VUulWhVuu59zPN4uJCxWLoqIvrjjAATbk2mfoR56iJxej0edtw8zGBf9ZRXDXSF4Cr2pChxvre7vQmxuWHS7emMwcDU7lzhaQP0cKTOBqxwVex5DY9P7aUpngwU/4JHGqNIPrDNQTIf9mQ21KIXzURqe5XK0Z+1pQgWSv1jyRhD8/4WtNJl34yjQSMB+ufXaxqHXArzFZ9jqWOboHZkBcZ10cbYE9KUcPAs7UqmizQVwSux7+XFxQ03VP3IFmc9QYE9fPttxerSD5rGOyeJEdqx+i5tLTVaxtnnIR7QN8T0hiljHzXoSURrqev74vGVE+2iX0uhCbJ7bs4YQnntlsi/Rco1SeQC/2iXQE56GanPwwdGKP8J8lDn3/0n5N89V91nDW78JlCKwYej5PCnY6Wx6rc1CWNLrJVyBML0JiQP7DFdPh1+4c7rkJHkZDxpvtA3MLEANXk0FrfjfYexfyj3uqxrTdEU/qdyehiejRwy/UmJIX8n3cTwGo5F3U352ue8YDjUz4hYrF6Ej4dg=
+    name: "\xc2\xa7aSHOP"
+    uuid: 7b8ac57c-dc3d-40e6-94e0-c4545b36e5f1
+    traits:
+      spawned: true
+      inventory: {}
+      location:
+        world: survival
+        x: '1000599.7037172938'
+        y: '81.0'
+        z: '1.000034152663779E7'
+        yaw: '269.54571533203125'
+        pitch: '1.132005214691162'
+      owner:
+        owner: HinataYT
+        uuid: f8ffab91-4598-41ad-9a16-084e1075fbc8
+    traitnames: type,spawned,location,owner,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

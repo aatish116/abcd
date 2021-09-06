@@ -1,0 +1,513 @@
+#BY UZUMAKI
+#- https://www.youtube.com/c/uzumaki
+
+
+
+
+options:
+
+
+	Server: &2&eMiniGames Network
+	
+	HUBCOMPASS: &8● &c&lSELECT MINIGAME &8●
+	
+	GADGETS: &8● &9&lGADGETS &8●
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+on right click:
+	if event-world is "world":
+		if name of event-item is "{@HUBCOMPASS}":
+			set {_slot} to 0
+			open virtual chest inventory with size 5 named "&7&lSELECT MINIGAME" to player
+			wait 1 ticks
+			loop 45 times:			
+				make a gui slot {_slot} of player with black glass pane named "&7 " with lore "&7" to do nothing
+				add 1 to {_slot}			
+				
+			make a gui slot 10 of player with stone_sword named "&8● &c&lFFA &8●" with lore "&7" to run:
+				open virtual chest inventory with size 3 named "&7&lJOIN TO" to player
+				wait 1 ticks
+				make a gui slot 11 of player with green clay named "&8● &a&lFFA NORMAL &8●" with lore "&7" to run function leaf_ffa_join(player, "normal")
+					
+				make a gui slot 15 of player with red clay named "&8● &a&lFFA BUILDUHC &8●" with lore "&7" to run function leaf_ffa_join(player, "builduhc")
+			
+			make a gui slot 12 of player with diamond_axe named "&8● &c&lKITBATTLE &8●" with lore "&7" to run function send_player_to(player, "kitbattle")
+				
+			make a gui slot 32 of player with feather named "&8● &e&lSKYPVP &8●" with lore "&7" to run function send_player_to(player, "skypvp")		
+			
+			make a gui slot 14 of player with bow named "&8● &e&lSKYWARS &8●" with lore "&7" to run function send_player_to(player, "skywars")
+			
+			make a gui slot 16 of player with ender_pearl named "&8● &c&lBEDWARS &8●" with lore "&7" to run function send_player_to(player, "bedwars")
+
+			make a gui slot 30 of player with stone_axe named "&8● &6&lSURVIVAL GAMES &8●" with lore "&7" to run:					
+				open virtual chest inventory with size 3 named "&7&lSG ARENAS" to player
+				wait 1 ticks
+				make a gui slot 10 of player with bow named "&8● &a&lSG4 &8●" with lore "&7" to run player command "sg join sg4"
+				make a gui slot 12 of player with bow named "&8● &a&lCHERNOBYL &8●" with lore "&7" to run player command "sg join chernobyl"
+				make a gui slot 14 of player with bow named "&8● &a&lGREENGRASS &8●" with lore "&7" to run player command "sg join greengrass"
+				make a gui slot 16 of player with bow named "&8● &a&lPAR72 &8●" with lore "&7" to run player command "sg join par72"
+								
+			
+		if name of event-item is "{@GADGETS}":
+			make player execute command "uc menu main"
+
+
+on right click on entity:
+	if event-world is "skypvp":
+		if name of event-entity is "&aKIT SELECTOR":
+			open virtual chest inventory with size 3 named "&7&lKITS" to player
+			wait 1 ticks	
+			make a gui slot 11 of player with bow named "&8● &a&lNOOB &8●" with lore "&7" to close then run player command "kit noob"	
+			make a gui slot 13 of player with bow named "&8● &a&lNewbie &8●" with lore "&7" to close then run player command "kit newbie"
+			make a gui slot 15 of player with bow named "&8● &a&lRecruit &8●" with lore "&7" to close then run player command "kit recruit"
+			
+	if event-world is "survival":
+		if name of event-entity is "&ASHOP":
+			make player execute command "shop"
+	if event-world is "bedwars":
+		if name of event-entity is "&e&lRANDOM JOIN":
+			make player execute command "bw randomjoin"			
+		if name of event-entity is "&e&lARENAS LIST":
+			open virtual chest inventory with size 3 named "&7&lSG ARENAS" to player
+			wait 1 ticks
+			make a gui slot 10 of player with book named "&8● &6&lHOLLOW &8●" with lore "&7" to run player command "bw join hollow"
+			make a gui slot 13 of player with book named "&8● &6&lLOTUS &8●" with lore "&7" to run player command "bw join lotus"
+			make a gui slot 16 of player with book named "&8● &6&lAMAZON &8●" with lore "&7" to run player command "bw join amazon"			
+
+
+on hunger bar change:
+	if player's world is "world" or "ffa":
+		set player's hunger to 20
+		
+		
+on player world change:
+	if "%past changed world%" is "skywars":
+		wait 0.1 seconds
+		if player's world is "world":
+			hub(player)
+			
+command /spawn:
+	trigger:
+		if player's world is "survival":
+			make player execute command "warp survival"
+		if player's world is "skypvp":
+			make player execute command "warp skypvp"			
+	
+
+
+function hub(p: player):
+	make console execute command "mvtp %{_p}% world"
+	leaf_ffa_clear({_p})
+	set slot 0 of {_p} to compass named "{@HUBCOMPASS}"
+	set slot 8 of {_p} to enderchest named "{@GADGETS}"	
+	wait 1 seconds
+	if {_p}'s world is "world":
+		heal {_p}
+	
+		
+function send_player_to(p: player, loc: text):	
+	delete stylish scoreboard "2-%{_p}%"
+	leaf_ffa_clear({_p})
+	set {_uuid} to uuid of {_p}
+	if {_loc} is "skypvp":
+		if {_p}'s world is "world":
+			if {skypvp.kills.%{_uuid}%} is not set:
+				set {skypvp.kills.%{_uuid}%} to 0
+			if {skypvp.deaths.%{_uuid}%} is not set:			
+				set {skypvp.deaths.%{_uuid}%} to 0
+			make console execute command "mvtp %{_p}% skypvp"
+	if {_loc} is "kitbattle":	
+		make {_p} execute command "kb join default"	
+		stop
+	if {_loc} is "survival":	
+		if {survival.kills.%{_uuid}%} is not set:
+			set {survival.kills.%{_uuid}%} to 0
+		if {survival.deaths.%{_uuid}%} is not set:			
+			set {survival.deaths.%{_uuid}%} to 0	
+		make console execute command "mvtp %{_p}% survival"
+		stop
+	if {_loc} is "bedwars":		
+		make console execute command "mvtp %{_p}% bedwars"
+		stop
+	if {_loc} is "creative":		
+		make console execute command "mvtp %{_p}% creative"
+		stop
+	if {_loc} is "skywars":		
+		make {_p} execute colored "sw join"	
+		stop
+	
+function sg_getcount(arena: world) :: number:	
+	set {_count} to 0
+	loop all players in world {_arena}:
+		add loop-player to {_gfsd::*}
+		if loop-player has 1 eye of ender:
+			remove loop-player from {_gfsd::*}
+	set {_count} to size of {_gfsd::*}
+	return {_count}
+	
+on join:
+	delete {leaf.ffa.%uuid of player%.mode}
+	set join message to ""	
+	set tab header to "&8● &7&m-------------------------&r &8●" and footer to "&8● &7&m-------------------------&r &8●" for player	
+	broadcast "%colored player's prefix% %player% &3Joined." in world "world"
+	set the player's tablist name to "%colored player's prefix% &7%player%"	
+	launch flickering trailing creeper coloured green fading to red at player timed 1
+	hub(player)
+
+on quit:
+	set quit message to ""
+	delete {leaf.ffa.%uuid of player%.mode}
+	
+on death of player:
+	set death message to ""
+	if victim's world is "skypvp":	
+		add 1 to {skypvp.kills.%uuid of attacker%}
+		add 1 to {skypvp.deaths.%uuid of victim%}
+		stop	
+	if victim's world is "survival":	
+		add 1 to {survival.kills.%uuid of attacker%}
+		add 1 to {survival.deaths.%uuid of victim%}
+		stop			
+	if victim's world is "ffa":	
+		clear drops
+		add 1 to {leaf.ffa.%uuid of attacker%.%{leaf.ffa.%uuid of attacker%.mode}%.kills}
+		add 1 to {leaf.ffa.%uuid of victim%.%{leaf.ffa.%uuid of victim%.mode}%.deaths}
+		add {points-per-kill} to {leaf.ffa.%uuid of attacker%.%{leaf.ffa.%uuid of victim%.mode}%.points}
+	else:
+		stop
+		
+
+		
+		
+command /glist:
+	trigger:
+		set {_p} to number of players in player's world
+		send "&7&l&m-------------------------"
+		send ""
+		send "&3» &7Players on server &c%number of all players%"					
+		send ""	
+		send "&3» &7Players on your section &c%{_p}%"		
+		send ""		
+		send "&7&l&m-------------------------"		
+
+
+command /hub:
+	trigger:
+		if player's world is "world":	
+			send "&7You are already in hub"
+		if player's world is "ffa":
+			clear player's inventory
+			delete {leaf.ffa.%uuid of player%.mode}
+			delete stylish scoreboard "4-%player%"
+			hub(player)
+		if player's world is "kitbattle":
+			make player execute command "kb leave"
+			clear player's inventory
+			hub(player)		
+		if player's world is "skypvp":
+			delete stylish scoreboard "1-%player%"		
+			hub(player)	
+		if player's world is "creative":	
+			delete stylish scoreboard "6-%player%"		
+			hub(player)				
+		if player's world is "skywars":
+			make player execute command "sw leave"		
+			make player execute command "sw leave"				
+			clear player's inventory
+			hub(player)	
+		if player's world is "bedwars":
+			make player execute command "bw leave"		
+			hub(player)				
+		if player's world is "par72" or "chernobyl" or "greengrass" or "sg4":
+			make player execute command "sg leave"	
+			delete stylish scoreboard "3-%player%"	
+			hub(player)	
+		if player's world is "survival":
+			delete stylish scoreboard "5-%player%"
+			hub(player)	
+
+
+on chat:
+	cancel event
+	broadcast "%colored player's prefix% &7%player% %message%" in player's world
+	
+command /setrank [<offline player>] [<text>]:
+	permission: staff.owner
+	permission message: &c&lSetRank &8> &7You Don't have permission!
+	trigger:
+		if arg-2 is not set:
+			send "&c&lSetRank &8> &7Use:"
+			send "&c/setrank &7<player> <rank>"
+		if arg-2 is set:
+			execute console command "pex user %arg-1% group set %arg-2%"
+			send "&c&lSetRank &8> &7%arg-1% Is now a %arg-2%"
+			send "&c&lSetRank &8> &7Your rank is now %arg-2%!" to arg 1	
+
+
+command /alert [<text>]:
+	aliases: /broadcast,/bc,/a
+	permission: staff.alert
+	permission message: &c&8┃ &bBroadCast &8┃ &cYou don't have Permission !
+	trigger:
+		if arg 1 is not set:
+			send "&cUse /alert (message)"
+		if arg 1 is set:
+			broadcast "&8┃ &bBroadCast &8┃ &8» &6%arg-1%"
+
+			
+every second:
+	loop all players:
+		if loop-player's world is "skypvp":
+			set {_SKYPVP} to number of players in world "skypvp"
+			if stylish scoreboard "1-%loop-player%" does not exist:
+				create new stylish scoreboard named "1-%loop-player%"
+				loop 12 times:
+					create a new id based score "1-%loop-player%Slot%loop-number%" with text "&%loop-number%" slot loop-number for stylish scoreboard "1-%loop-player%"
+			wait 3 ticks
+			if stylish scoreboard "1-%loop-player%" exist:
+				set title of stylish scoreboard "1-%loop-player%" to "&7 &7&lSKYPVP &7"
+				set stylish scoreboard of loop-player to "1-%loop-player%"
+				set the text of id "1-%loop-player%Slot12" to "&2&l"					
+				set the text of id "1-%loop-player%Slot11" to "&7&l» &7&lPROFILE"	
+				set the text of id "1-%loop-player%Slot10" to "&2&3"
+				set the text of id "1-%loop-player%Slot9" to "&3» &7&lNick &c%loop-player%"			
+				set the text of id "1-%loop-player%Slot8" to "&3» &7&lRank %colored loop-player's prefix%"	
+				set the text of id "1-%loop-player%Slot7" to "&3» &7&lKills &c%{skypvp.kills.%uuid of loop-player%}%"	
+				set the text of id "1-%loop-player%Slot6" to "&3» &7&lDeaths &c%{skypvp.deaths.%uuid of loop-player%}%"				
+				set the text of id "1-%loop-player%Slot5" to "&2&2"			
+				set the text of id "1-%loop-player%Slot4" to "&7&l» &7&lSERVER"	
+				set the text of id "1-%loop-player%Slot3" to "&1&3"			
+				set the text of id "1-%loop-player%Slot2" to "&3» &7&lSKYPVP &c%{_SKYPVP}%"			
+				set the text of id "1-%loop-player%Slot1" to "&5&l"	
+		if loop-player's world is "world":	
+			set {_world} to number of players in world "world"	
+			set loop-player's hunger to 20
+			if stylish scoreboard "2-%loop-player%" does not exist:
+				create new stylish scoreboard named "2-%loop-player%"
+				loop 12 times:
+					create a new id based score "2-%loop-player%Slot%loop-number%" with text "&%loop-number%" slot loop-number for stylish scoreboard "2-%loop-player%"
+			wait 3 ticks
+			if stylish scoreboard "2-%loop-player%" exist:
+				set title of stylish scoreboard "2-%loop-player%" to "&3● &7&lHUB &3●"
+				set stylish scoreboard of loop-player to "2-%loop-player%"
+				set the text of id "2-%loop-player%Slot12" to "&2&l"					
+				set the text of id "2-%loop-player%Slot11" to "&e» &7&lPROFILE"	
+				set the text of id "2-%loop-player%Slot10" to "&2&d"
+				set the text of id "2-%loop-player%Slot9" to "&3» &7&lNick &c%loop-player%"			
+				set the text of id "2-%loop-player%Slot8" to "&3» &7&lRank %colored loop-player's prefix%"					
+				set the text of id "2-%loop-player%Slot7" to "&2&e"			
+				set the text of id "2-%loop-player%Slot6" to "&e» &7&lSERVER"	
+				set the text of id "2-%loop-player%Slot5" to "&2&3"			
+				set the text of id "2-%loop-player%Slot4" to "&3» &7&lHUB &c%{_world}%"			
+				set the text of id "2-%loop-player%Slot3" to "&3&3"					
+				set the text of id "2-%loop-player%Slot2" to "&3» &7&lGLOBAL &c%number of all players%"			
+				set the text of id "2-%loop-player%Slot1" to "&4&l"		
+		if loop-player's world is "SG4" or "CHERNOBYL" or "PAR72" or "GREENGRASS":	
+			set {_count} to sg_getcount(loop-player's world)
+			if stylish scoreboard "3-%loop-player%" does not exist:
+				create new stylish scoreboard named "3-%loop-player%"
+				loop 13 times:
+					create a new id based score "3-%loop-player%Slot%loop-number%" with text "&%loop-number%" slot loop-number for stylish scoreboard "3-%loop-player%"
+			wait 3 ticks
+			if stylish scoreboard "3-%loop-player%" exist:
+				set title of stylish scoreboard "3-%loop-player%" to "&6&lMAP &7&l- &6&l%loop-player's world%"
+				set stylish scoreboard of loop-player to "3-%loop-player%"		
+				set the text of id "3-%loop-player%Slot13" to "&7&l» &f&lYou"	
+				set the text of id "3-%loop-player%Slot12" to "&2%loop-player%"		
+				set the text of id "3-%loop-player%Slot11" to "&2&7"			
+				set the text of id "3-%loop-player%Slot10" to "&7&l» &f&lTime"	
+				set the text of id "3-%loop-player%Slot9" to "&e%now%"				
+				set the text of id "3-%loop-player%Slot8" to "&2&l"	
+				set the text of id "3-%loop-player%Slot7" to "&7&l» &f&lServer"		
+				set the text of id "3-%loop-player%Slot6" to "&6&lEU &e&l6918"	
+				set the text of id "3-%loop-player%Slot5" to "&3&l"				
+				set the text of id "3-%loop-player%Slot4" to "&7&l» &f&lPlayers"	
+				set the text of id "3-%loop-player%Slot3" to "&7&lPlaying &7%{_count}%"	
+				set the text of id "3-%loop-player%Slot2" to "&4&9"			
+				set the text of id "3-%loop-player%Slot1" to "{@website}"	
+		if loop-player's world is "ffa":			
+			if stylish scoreboard "4-%loop-player%" does not exist:
+				create new stylish scoreboard named "4-%loop-player%"
+				loop 14 times:
+					create a new id based score "4-%loop-player%Slot%loop-number%" with text "&%loop-number%" slot loop-number for stylish scoreboard "4-%loop-player%"
+			wait 3 ticks
+			if stylish scoreboard "4-%loop-player%" exist:
+				set title of stylish scoreboard "4-%loop-player%" to "&7● &e&lFFA &7●"
+				set stylish scoreboard of loop-player to "4-%loop-player%"
+				set the text of id "4-%loop-player%Slot14" to "&1&l"				
+				set the text of id "4-%loop-player%Slot13" to "&7&l» &6&lMODE"	
+				set the text of id "4-%loop-player%Slot12" to "&2&d&8&l● &7%{leaf.ffa.%uuid of loop-player%.mode}%"			
+				set the text of id "4-%loop-player%Slot11" to "&2&l"					
+				set the text of id "4-%loop-player%Slot10" to "&7&l» &6&lPOINTS"	
+				set the text of id "4-%loop-player%Slot9" to "&9&8&l● &7%{leaf.ffa.%uuid of loop-player%.%{leaf.ffa.%uuid of loop-player%.mode}%.points}%"			
+				set the text of id "4-%loop-player%Slot8" to "&2&d"
+				set the text of id "4-%loop-player%Slot7" to "&7&l» &6&lKILLS"		
+				set the text of id "4-%loop-player%Slot6" to "&8&l● &7%{leaf.ffa.%uuid of loop-player%.%{leaf.ffa.%uuid of loop-player%.mode}%.kills}%"
+				set the text of id "4-%loop-player%Slot5" to "&3&d"			
+				set the text of id "4-%loop-player%Slot4" to "&7&l» &6&lDEATHS"	
+				set the text of id "4-%loop-player%Slot3" to "&1&8&l● &7%{leaf.ffa.%uuid of loop-player%.%{leaf.ffa.%uuid of loop-player%.mode}%.deaths}%"
+				set the text of id "4-%loop-player%Slot2" to "&4&d"	
+				set the text of id "4-%loop-player%Slot1" to "{@website}"	
+		if loop-player's world is "survival":
+			set {_surv} to number of players in world "survival"
+			if stylish scoreboard "5-%loop-player%" does not exist:
+				create new stylish scoreboard named "5-%loop-player%"
+				loop 12 times:
+					create a new id based score "5-%loop-player%Slot%loop-number%" with text "&%loop-number%" slot loop-number for stylish scoreboard "5-%loop-player%"
+			wait 3 ticks
+			if stylish scoreboard "5-%loop-player%" exist:			
+				set title of stylish scoreboard "5-%loop-player%" to "&1&8&l● &2&lSURVIVAL &1&8&l●"
+				set stylish scoreboard of loop-player to "5-%loop-player%"
+				set the text of id "5-%loop-player%Slot12" to "&2&l"					
+				set the text of id "5-%loop-player%Slot11" to "&7&l» &7&lPROFILE"	
+				set the text of id "5-%loop-player%Slot10" to "&2&3"
+				set the text of id "5-%loop-player%Slot9" to "&3» &7&lNick &c%loop-player%"			
+				set the text of id "5-%loop-player%Slot8" to "&3» &7&lRank %colored loop-player's prefix%"	
+				set the text of id "5-%loop-player%Slot7" to "&3» &7&lKills &c%{survival.kills.%uuid of loop-player%}%"	
+				set the text of id "5-%loop-player%Slot6" to "&3» &7&lDeaths &c%{survival.deaths.%uuid of loop-player%}%"				
+				set the text of id "5-%loop-player%Slot5" to "&2&2"			
+				set the text of id "5-%loop-player%Slot4" to "&7&l» &7&lSERVER"	
+				set the text of id "5-%loop-player%Slot3" to "&1&3"			
+				set the text of id "5-%loop-player%Slot2" to "&3» &7&lSURVIVAL &c%{_surv}%"			
+				set the text of id "5-%loop-player%Slot1" to "&5&l"		
+		if loop-player's world is "creative":
+			set {_surv} to number of players in world "creative"
+			if stylish scoreboard "6-%loop-player%" does not exist:
+				create new stylish scoreboard named "6-%loop-player%"
+				loop 10 times:
+					create a new id based score "6-%loop-player%Slot%loop-number%" with text "&%loop-number%" slot loop-number for stylish scoreboard "6-%loop-player%"
+			wait 3 ticks
+			if stylish scoreboard "6-%loop-player%" exist:
+				set title of stylish scoreboard "6-%loop-player%" to "&1&8&l● &6&lCREATIVE &1&8&l●"
+				set stylish scoreboard of loop-player to "6-%loop-player%"
+				set the text of id "6-%loop-player%Slot10" to "&2&l"					
+				set the text of id "6-%loop-player%Slot9" to "&7&l» &7&lPROFILE"	
+				set the text of id "6-%loop-player%Slot8" to "&2&3"
+				set the text of id "6-%loop-player%Slot7" to "&3» &7&lNick &c%loop-player%"			
+				set the text of id "6-%loop-player%Slot6" to "&3» &7&lRank %colored loop-player's prefix%"					
+				set the text of id "6-%loop-player%Slot5" to "&2&2"			
+				set the text of id "6-%loop-player%Slot4" to "&7&l» &7&lSERVER"	
+				set the text of id "6-%loop-player%Slot3" to "&1&3"			
+				set the text of id "6-%loop-player%Slot2" to "&3» &7&lCREATIVE &c%{_surv}%"			
+				set the text of id "6-%loop-player%Slot1" to "&5&l"	
+
+
+	
+function leaf_ffa_clear(p: player):
+	clear {_p}'s inventory
+	set {_p}'s gamemode to survival
+	milk {_p}
+	heal {_p}
+
+	
+	
+function leaf_ffa_equip(p: player, mode: text):
+	if {_mode} is "normal":
+		equip {_p} with all iron armour
+		set slot 0 of {_p} to iron_sword named "&8&l» &7&lSword"
+		set slot 1 of {_p} to fishing_rod named "&8&l» &7&lRod"
+	if {_mode} is "builduhc":		
+		equip {_p} with all iron armour	
+		set slot 0 of {_p} to iron_sword named "&8&l» &7&lSword"
+		set slot 1 of {_p} to fishing_rod named "&8&l» &7&lRod"	
+		set slot 2 of {_p} to water_bucket named "&8&l» &7&lWater"
+		set slot 3 of {_p} to lava_bucket named "&8&l» &7&lLava"
+		set slot 4 of {_p} to 64 oak planks named "&8&l» &7&lWood"
+		set slot 5 of {_p} to 64 cobblestone named "&8&l» &7&lCobblestone"	
+		set slot 6 of {_p} to 1 diamond_pickaxe named "&8&l» &7&lPickaxe"	
+		set slot 7 of {_p} to 1 diamond_axe named "&8&l» &7&lAxe"	
+	else:
+		stop
+	
+function leaf_ffa_join(p: player, mode: text):
+	leaf_ffa_clear({_p})
+	set {_uuid} to uuid of {_p}
+	if {_mode} is "normal":
+		set {leaf.ffa.%{_uuid}%.mode} to "Normal"
+		teleport {_p} to {leaf.ffa.spawn.normal}
+		leaf_ffa_equip({_p}, "normal")
+	if {_mode} is "builduhc":
+		set {leaf.ffa.%{_uuid}%.mode} to "BuildUHC"		
+		teleport {_p} to {leaf.ffa.spawn.builduhc}	
+		leaf_ffa_equip({_p}, "builduhc")	
+	if {leaf.ffa.%{_uuid}%.%{leaf.ffa.%{_uuid}%.mode}%.kills} is not set:
+		set {leaf.ffa.%{_uuid}%.%{leaf.ffa.%{_uuid}%.mode}%.kills} to 0
+	if {leaf.ffa.%{_uuid}%.%{leaf.ffa.%{_uuid}%.mode}%.deaths} is not set:	
+		set {leaf.ffa.%{_uuid}%.%{leaf.ffa.%{_uuid}%.mode}%.deaths} to 0
+	if {leaf.ffa.%{_uuid}%.%{leaf.ffa.%{_uuid}%.mode}%.points} is not set:	
+		set {leaf.ffa.%{_uuid}%.%{leaf.ffa.%{_uuid}%.mode}%.points} to 0	
+	else:
+		stop
+				
+			
+	
+on respawn:
+	if {leaf.ffa.%uuid of player%.mode} is "normal":
+		teleport player to {leaf.ffa.spawn.normal}
+		leaf_ffa_equip(player, "normal")
+	if {leaf.ffa.%uuid of player%.mode} is "builduhc":	
+		teleport player to {leaf.ffa.spawn.builduhc}	
+		leaf_ffa_equip(player, "builduhc")	
+
+on break:
+	if {leaf.ffa.%uuid of player%.mode} is "normal":
+		cancel event
+	if {leaf.ffa.%uuid of player%.mode} is "builduhc":
+		if event-block is oak planks or cobblestone or lava or water:	
+			if {leaf.ffa.blocks::%location of event-block%} is true:
+				delete {leaf.ffa.blocks::%location of event-block%}
+				stop
+			else:
+				cancel event
+		else:
+			cancel event
+	else:
+		stop
+
+on place:	
+	if {leaf.ffa.%uuid of player%.mode} is "normal":
+		cancel event	
+	if {leaf.ffa.%uuid of player%.mode} is "builduhc":
+		if event-block is oak planks or cobblestone or lava or water:
+			set {leaf.ffa.blocks::%location of event-block%} to true
+			wait 3 seconds
+			set event-block to air
+		else:
+			cancel event
+	else:
+		stop
+							
+		
+		
+		
+			
+		

@@ -1,0 +1,187 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 5
+npc:
+  '3':
+    metadata:
+      cached-skin-uuid-name: 999_heaven
+      cached-skin-uuid: 63922048-ca73-4d90-b973-aa64d469a0dd
+      nameplate-visible: 'false'
+    name: squads
+    uuid: d9daa4a1-03df-4e36-8f6f-92076f6bdf58
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: DmfrCkggm8LVe+AdzyCuLXUnv+qfmdf/GepMaeT8BydWYl62mH7hmTcS2u5RVHXT8iVHsuo2h/TGymgtkLIQ1zT0s/Rsp4JLk+VObP3GnLxbyr2nzab8WwP5jgJIvaEOJd7qWuWoWFV/tZ9b5YazFretir6MCelq3WnNX8Do47XrkTS7fEJB4C7CbCognzH/P/eo4fD1xDVHrtziXheOc5FyeXiwY5iJvEBYgf5yHID1mksVE5axOQvYUkIfPltMWtxQwpKt2Fq44KvGBw1KoYr/zhwAyO6Y9K674bgwLJRyWi2Vj+1OtmxEOmnrbFAOYeUd/cCFvafXxLZ4AssU93vQc0Mpz+fiKdxoOvlEllYMjO0w3hSMSNaFXiqDW6YiHn7Up1XHsYS20i1D+0M/lmZbF81emTUHNS6gvUcdXrtpiGVr166y9rfnI7HXaDre87TOE/H9pT+V5UOvaoQjfn3mKcSs+Bc3SPTMhsbh++KOtwvr2zAJF4iF4HTryIu4AdtTWdfcGVNYlJGCRzNKnuzSz9S1Vx6Mjn1r7s/ISE7SmltTZ6I7tkX1S9x3TeA+jATQGWzuml0tWapjx+2sDcDrwf26W4Xe/pdH/ZCxaavXLVVJ5VvzZdhppPUp/29A3LsUuscZ6UIhJwi81V00D5VL0IyZuUt+XcXZDiZil1I=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNDAzNDExNTg3NywKICAicHJvZmlsZUlkIiA6ICI2MzkyMjA0OGNhNzM0ZDkwYjk3M2FhNjRkNDY5YTBkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICI5OTlfaGVhdmVuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxYmZiOTFlYTdlN2E4MjBiYjNkOWU4ZWVlODljMDM2MzRkZWE0NDg5YmM5ZjljNjdjNmMxOGE2YjY4NmRlMSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: 999_heaven
+      type: PLAYER
+      location:
+        bodyYaw: -270.0
+        world: Lobby
+        x: '55.5'
+        y: '76.0'
+        z: '25.5'
+        yaw: '90.0'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '1':
+            command: bwaddon gamesinv squads
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: S0ULSTRIKER
+        uuid: 7afa9c78-3874-400d-8de5-97eafe2209af
+    traitnames: skintrait,scoreboardtrait,inventory,equipment,mounttrait,commandtrait,type,location,owner,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: 999_heaven
+      cached-skin-uuid: 63922048-ca73-4d90-b973-aa64d469a0dd
+      nameplate-visible: 'false'
+    name: tripple
+    uuid: e9035a1c-0835-4f69-ad99-1022b10f8051
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: r1wTEn3i0jcMSjCpn2wyi5cREd91qm+2em+7He2B6DnDiIbAF1OOCs7nYpmQfwFPbCX/tSOF0BjY6TIlpx3P4C6/OTnYAEZgdZnExwDwUmc96c3JfBx61jL70Krl0jio/zLWoVZ3kzuHk/e7lM3QKyUpOO7u7LYNPqkuzjyiQnTOPM2J8QZrRm6q99SznPGqq3eFzMvG1SMuGXhxGcdTOZtb5ORMBdF82V1r8cYCGWP+XoGZZeLakwdQHXLjoT4UrsyWx9LHWRNX5KNjlqzOgishOF5N3C/DuP0bHcaJU+luU8Vvvwe4ZecUKkphnilAxx68OxNrIzr/EwocXKSBka4n9yXDyZdvVh6R6zi2t2MBzK7pBTpd0MTk5AurRYwetObiQ9MHMIe5xDawVu4rJPlumM9hI/ksOZySMTVjhngat7Mka2masr1iD4koQpLHQFG/t8co+865wXMGdUiXwsL+FcRQrgPW3ZCCPHqJaZPsXLRp8UPJF1ApCvkYt24gjS/e9zwg1YzDcwv80A9xU+3Zomj30D2E4nMzOh8J0abYoIVCgYgWEGj0KFzB32dRxTIpSbC6GtdkI8yS+TB7WKyJ6XuVLFUEEXoj9povxiqyIjytH/KTxr/d4ajMoQElbOWanUUHIFI/8z30ewO7wqtUFjRS3Uw1MJDYUBTxi/c=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNDAzNDExMDkxMCwKICAicHJvZmlsZUlkIiA6ICI2MzkyMjA0OGNhNzM0ZDkwYjk3M2FhNjRkNDY5YTBkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICI5OTlfaGVhdmVuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxYmZiOTFlYTdlN2E4MjBiYjNkOWU4ZWVlODljMDM2MzRkZWE0NDg5YmM5ZjljNjdjNmMxOGE2YjY4NmRlMSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: 999_heaven
+      type: PLAYER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      location:
+        bodyYaw: -270.0
+        world: Lobby
+        x: '56.5'
+        y: '76.0'
+        z: '20.5'
+        yaw: '90.0'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '4':
+            command: bwaddon gamesinv triples
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: IdConfirmed
+        uuid: 6b23291c-495b-478d-9055-d0d151206bff
+    traitnames: skintrait,scoreboardtrait,inventory,equipment,mounttrait,commandtrait,hologramtrait,type,location,owner,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid-name: 999_heaven
+      cached-skin-uuid: 63922048-ca73-4d90-b973-aa64d469a0dd
+      nameplate-visible: 'false'
+    name: double
+    uuid: 4bdc1370-2871-478a-92ac-ac08791d7e08
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: wWT17AKWLZl72H+bEo31Z29SXJlLMe41f4nKBqU/IBBde5TdXs3OwQ9ZJYKlHv50CZJycw206JxUgl55VOBfzYM302YA1wGYJxvsAM0iJndYVPQug8ZRJY/mX4Hqc7J9jZjBibeCZZeDTveHNfDItN0OXF8WiAYFEnh896s47EHxUSugur8g1st8+Ro9ppx3Ye/zDGGn624FcFjMNhyro3vM/NwJwsbukkBAmcXqUN0TH/L+A6OF5no3n+8AJX5o0kc+35Y0V68HaUFOvrrbGg4fOcZpEjuLUGouNVuiEeTam3S5f/JKArDZ6BnZMwJXvA96P3yZAqviXTunNMXTgGdUfVnPX+gxSVTZmk2D4c79jap1dulQbPDpAjCBt7fyj9WDAweB/FLDPfppW+IH5ocIm9J+EVCqDhTD3DETQ1WI3W2gbWPo6rRZtzBWFvUq5frIvhrGV+m9N78262cbxrF6EYvoRKQbCN42k0EIQnRNFIkvxoGLLAXeUQoSzOcI1XkY8ilKq+Cq8euyQ8WMAJN2Wt92o1YBwJPhbkufrYvGdTfkXS8AKzERJ4bNh12oAjfZcpEMCQePMjzgbDF1z/gK7tRdO3xl38avSDmntpvoUCsZ0n36NjqLOVls/8GBiB7qX3CGwvDvw0itCT1VMXaN+tp7R4Pe9WHxHyYmmHY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNDAzNDA5NDkzMiwKICAicHJvZmlsZUlkIiA6ICI2MzkyMjA0OGNhNzM0ZDkwYjk3M2FhNjRkNDY5YTBkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICI5OTlfaGVhdmVuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxYmZiOTFlYTdlN2E4MjBiYjNkOWU4ZWVlODljMDM2MzRkZWE0NDg5YmM5ZjljNjdjNmMxOGE2YjY4NmRlMSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: 999_heaven
+      type: PLAYER
+      location:
+        bodyYaw: -270.0
+        world: Lobby
+        x: '55.5'
+        y: '76.0'
+        z: '15.5'
+        yaw: '90.0'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: bwaddon gamesinv double
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: S0ULSTRIKER
+        uuid: 7afa9c78-3874-400d-8de5-97eafe2209af
+    traitnames: skintrait,scoreboardtrait,inventory,equipment,mounttrait,commandtrait,type,location,owner,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: 999_heaven
+      cached-skin-uuid: 63922048-ca73-4d90-b973-aa64d469a0dd
+      nameplate-visible: 'false'
+    name: solo
+    uuid: 089ac1d7-5372-40a9-8425-ecf58e6383af
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: wWT17AKWLZl72H+bEo31Z29SXJlLMe41f4nKBqU/IBBde5TdXs3OwQ9ZJYKlHv50CZJycw206JxUgl55VOBfzYM302YA1wGYJxvsAM0iJndYVPQug8ZRJY/mX4Hqc7J9jZjBibeCZZeDTveHNfDItN0OXF8WiAYFEnh896s47EHxUSugur8g1st8+Ro9ppx3Ye/zDGGn624FcFjMNhyro3vM/NwJwsbukkBAmcXqUN0TH/L+A6OF5no3n+8AJX5o0kc+35Y0V68HaUFOvrrbGg4fOcZpEjuLUGouNVuiEeTam3S5f/JKArDZ6BnZMwJXvA96P3yZAqviXTunNMXTgGdUfVnPX+gxSVTZmk2D4c79jap1dulQbPDpAjCBt7fyj9WDAweB/FLDPfppW+IH5ocIm9J+EVCqDhTD3DETQ1WI3W2gbWPo6rRZtzBWFvUq5frIvhrGV+m9N78262cbxrF6EYvoRKQbCN42k0EIQnRNFIkvxoGLLAXeUQoSzOcI1XkY8ilKq+Cq8euyQ8WMAJN2Wt92o1YBwJPhbkufrYvGdTfkXS8AKzERJ4bNh12oAjfZcpEMCQePMjzgbDF1z/gK7tRdO3xl38avSDmntpvoUCsZ0n36NjqLOVls/8GBiB7qX3CGwvDvw0itCT1VMXaN+tp7R4Pe9WHxHyYmmHY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNDAzNDA5NDkzMiwKICAicHJvZmlsZUlkIiA6ICI2MzkyMjA0OGNhNzM0ZDkwYjk3M2FhNjRkNDY5YTBkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICI5OTlfaGVhdmVuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxYmZiOTFlYTdlN2E4MjBiYjNkOWU4ZWVlODljMDM2MzRkZWE0NDg5YmM5ZjljNjdjNmMxOGE2YjY4NmRlMSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: 999_heaven
+      type: PLAYER
+      location:
+        bodyYaw: -270.0
+        world: Lobby
+        x: '53.5'
+        y: '76.0'
+        z: '11.5'
+        yaw: '90.0'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: bwaddon gamesinv solo
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: S0ULSTRIKER
+        uuid: 7afa9c78-3874-400d-8de5-97eafe2209af
+    traitnames: skintrait,scoreboardtrait,inventory,equipment,mounttrait,commandtrait,type,location,owner,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

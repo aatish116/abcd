@@ -1,0 +1,26 @@
+inventory:
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: CHEST
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: "\xa7aCosmetic Menu \xa77(Right-click)"
+      lore:
+      - "\xa77Right-click to open the Cosmetic menu."
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+      blockMaterial: CHEST
+ender_chest: {}
+armor_contents: {}
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0
+remainingAir: 300
+fireTicks: -20
+saturation: 5.0
+exhaustion: 0.7842
